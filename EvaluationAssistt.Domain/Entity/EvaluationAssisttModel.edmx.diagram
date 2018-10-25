@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="201079efbbed448e9c6adc9df38ebdb1" Name="Diagram1">
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Agents" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.AgentTypes" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Answers" Width="1.5" PointX="12.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.AnswersCategoriesSettings" Width="1.5" PointX="19.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.AnswersQuestionsSettings" Width="1.5" PointX="15" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.AnswersSectionsSettings" Width="1.5" PointX="22.25" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.CallsEvaluated" Width="1.5" PointX="15" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.CallsRecorded" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.CallsTemporary" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Categories" Width="1.5" PointX="17" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.CategoriesQuestions" Width="1.5" PointX="22.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Flags" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.FormCallsEvaluatedStateTypes" Width="1.5" PointX="2.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Forms" Width="1.5" PointX="7.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.FormsCallsEvaluated" Width="1.5" PointX="9.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.FormsSections" Width="1.5" PointX="19.25" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Groups" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Locations" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Messages" Width="1.5" PointX="10.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.MessagesAgents" Width="1.5" PointX="12.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Pages" Width="1.5" PointX="10.5" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.PagesAgents" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Questions" Width="1.5" PointX="10.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.ScoreTypes" Width="1.5" PointX="14.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Sections" Width="1.5" PointX="17" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.SectionsCategories" Width="1.5" PointX="19.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Teams" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.Calls" Width="1.5" PointX="4.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.DetailFormView" Width="1.5" PointX="6.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.EvaluatedDetailView" Width="1.5" PointX="0.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EvaluationAssisttModel.FormsCalls" Width="1.5" PointX="2.75" PointY="18.5" IsExpanded="true" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Agents_AgentTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Agents_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_FormsCalls_Agents" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Groups_Agents" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_MessagesAgents_Agents_From" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_MessagesAgents_Agents_To" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_PagesAgents_Agents" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Teams_Agents" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Answers_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_AnswersCategoriesSettings_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_AnswersQuestionsSettings_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_AnswersSectionsSettings_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_CallsEvaluated_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_AnswersCategoriesSettings_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_AnswersQuestionsSettings_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_AnswersSectionsSettings_Sections" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_CallsEvaluated_FormsCalls" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_CallsEvaluated_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_FormsCalls_Calls" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Categories_ScoreTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_CategoriesQuestions_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_SectionsCategories_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_CategoriesQuestions_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_FormsCalls_Forms" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_FormsSections_Forms" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_FormsSections_Sections" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Groups_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Teams_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_MessagesAgents_Messages" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_PagesAgents_Pages" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_Sections_ScoreTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="EvaluationAssisttModel.FK_SectionsCategories_Sections" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

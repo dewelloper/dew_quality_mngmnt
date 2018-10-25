@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EvaluationAssisttModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="EvaluationAssisttModelStoreContainer">
+    <EntitySet Name="Agents" EntityType="EvaluationAssisttModel.Store.Agents" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AgentTypes" EntityType="EvaluationAssisttModel.Store.AgentTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Answers" EntityType="EvaluationAssisttModel.Store.Answers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AnswersCategoriesSettings" EntityType="EvaluationAssisttModel.Store.AnswersCategoriesSettings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AnswersQuestionsSettings" EntityType="EvaluationAssisttModel.Store.AnswersQuestionsSettings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AnswersSectionsSettings" EntityType="EvaluationAssisttModel.Store.AnswersSectionsSettings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CallsEvaluated" EntityType="EvaluationAssisttModel.Store.CallsEvaluated" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CallsRecorded" EntityType="EvaluationAssisttModel.Store.CallsRecorded" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Categories" EntityType="EvaluationAssisttModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CategoriesQuestions" EntityType="EvaluationAssisttModel.Store.CategoriesQuestions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Forms" EntityType="EvaluationAssisttModel.Store.Forms" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FormsCallsEvaluated" EntityType="EvaluationAssisttModel.Store.FormsCallsEvaluated" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FormsSections" EntityType="EvaluationAssisttModel.Store.FormsSections" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Groups" EntityType="EvaluationAssisttModel.Store.Groups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Locations" EntityType="EvaluationAssisttModel.Store.Locations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Messages" EntityType="EvaluationAssisttModel.Store.Messages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MessagesAgents" EntityType="EvaluationAssisttModel.Store.MessagesAgents" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pages" EntityType="EvaluationAssisttModel.Store.Pages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PagesAgents" EntityType="EvaluationAssisttModel.Store.PagesAgents" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Questions" EntityType="EvaluationAssisttModel.Store.Questions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ScoreTypes" EntityType="EvaluationAssisttModel.Store.ScoreTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sections" EntityType="EvaluationAssisttModel.Store.Sections" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SectionsCategories" EntityType="EvaluationAssisttModel.Store.SectionsCategories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Teams" EntityType="EvaluationAssisttModel.Store.Teams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Calls" EntityType="EvaluationAssisttModel.Store.Calls" store:Type="Views" store:Schema="dbo" store:Name="Calls">
+      <DefiningQuery>SELECT 
+      [Calls].[Id] AS [Id], 
+      [Calls].[FileName] AS [FileName], 
+      [Calls].[AgentId] AS [AgentId], 
+      [Calls].[LoginId] AS [LoginId], 
+      [Calls].[FirstName] AS [FirstName], 
+      [Calls].[LastName] AS [LastName], 
+      [Calls].[IpPhone] AS [IpPhone], 
+      [Calls].[DateStarted] AS [DateStarted], 
+      [Calls].[Duration] AS [Duration], 
+      [Calls].[CallingDeviceId] AS [CallingDeviceId], 
+      [Calls].[VdnName] AS [VdnName], 
+      [Calls].[VdnExtension] AS [VdnExtension], 
+      [Calls].[Remark] AS [Remark], 
+      [Calls].[IsDeleted] AS [IsDeleted]
+      FROM [dbo].[Calls] AS [Calls]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="FormsCalls" EntityType="EvaluationAssisttModel.Store.FormsCalls" store:Type="Views" store:Schema="dbo" store:Name="FormsCalls">
+      <DefiningQuery>SELECT 
+      [FormsCalls].[Id] AS [Id], 
+      [FormsCalls].[FormId] AS [FormId], 
+      [FormsCalls].[FormName] AS [FormName], 
+      [FormsCalls].[DateStarted] AS [DateStarted], 
+      [FormsCalls].[CallId] AS [CallId], 
+      [FormsCalls].[EvaluatorId] AS [EvaluatorId], 
+      [FormsCalls].[EvaluatorFirstName] AS [EvaluatorFirstName], 
+      [FormsCalls].[EvaluatorLastName] AS [EvaluatorLastName], 
+      [FormsCalls].[AgentId] AS [AgentId], 
+      [FormsCalls].[FirstName] AS [FirstName], 
+      [FormsCalls].[LastName] AS [LastName], 
+      [FormsCalls].[TeamId] AS [TeamId], 
+      [FormsCalls].[Score] AS [Score], 
+      [FormsCalls].[Date] AS [Date], 
+      [FormsCalls].[AgentNote] AS [AgentNote], 
+      [FormsCalls].[AgentNoteSeen] AS [AgentNoteSeen], 
+      [FormsCalls].[IsDeleted] AS [IsDeleted]
+      FROM [dbo].[FormsCalls] AS [FormsCalls]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Agents_AgentTypes" Association="EvaluationAssisttModel.Store.FK_Agents_AgentTypes">
+      <End Role="AgentTypes" EntitySet="AgentTypes" />
+      <End Role="Agents" EntitySet="Agents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Agents_Teams" Association="EvaluationAssisttModel.Store.FK_Agents_Teams">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Agents" EntitySet="Agents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Answers_Questions" Association="EvaluationAssisttModel.Store.FK_Answers_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersCategoriesSettings_Answers" Association="EvaluationAssisttModel.Store.FK_AnswersCategoriesSettings_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="AnswersCategoriesSettings" EntitySet="AnswersCategoriesSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersCategoriesSettings_Categories" Association="EvaluationAssisttModel.Store.FK_AnswersCategoriesSettings_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="AnswersCategoriesSettings" EntitySet="AnswersCategoriesSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersQuestionsSettings_Answers" Association="EvaluationAssisttModel.Store.FK_AnswersQuestionsSettings_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="AnswersQuestionsSettings" EntitySet="AnswersQuestionsSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersQuestionsSettings_Questions" Association="EvaluationAssisttModel.Store.FK_AnswersQuestionsSettings_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="AnswersQuestionsSettings" EntitySet="AnswersQuestionsSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersSectionsSettings_Answers" Association="EvaluationAssisttModel.Store.FK_AnswersSectionsSettings_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="AnswersSectionsSettings" EntitySet="AnswersSectionsSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersSectionsSettings_Sections" Association="EvaluationAssisttModel.Store.FK_AnswersSectionsSettings_Sections">
+      <End Role="Sections" EntitySet="Sections" />
+      <End Role="AnswersSectionsSettings" EntitySet="AnswersSectionsSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CallsEvaluated_Answers" Association="EvaluationAssisttModel.Store.FK_CallsEvaluated_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="CallsEvaluated" EntitySet="CallsEvaluated" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CallsEvaluated_FormsCalls" Association="EvaluationAssisttModel.Store.FK_CallsEvaluated_FormsCalls">
+      <End Role="FormsCallsEvaluated" EntitySet="FormsCallsEvaluated" />
+      <End Role="CallsEvaluated" EntitySet="CallsEvaluated" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CallsEvaluated_Questions" Association="EvaluationAssisttModel.Store.FK_CallsEvaluated_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="CallsEvaluated" EntitySet="CallsEvaluated" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Categories_ScoreTypes" Association="EvaluationAssisttModel.Store.FK_Categories_ScoreTypes">
+      <End Role="ScoreTypes" EntitySet="ScoreTypes" />
+      <End Role="Categories" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CategoriesQuestions_Categories" Association="EvaluationAssisttModel.Store.FK_CategoriesQuestions_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="CategoriesQuestions" EntitySet="CategoriesQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CategoriesQuestions_Questions" Association="EvaluationAssisttModel.Store.FK_CategoriesQuestions_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="CategoriesQuestions" EntitySet="CategoriesQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsCalls_Agents" Association="EvaluationAssisttModel.Store.FK_FormsCalls_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="FormsCallsEvaluated" EntitySet="FormsCallsEvaluated" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsCalls_Calls" Association="EvaluationAssisttModel.Store.FK_FormsCalls_Calls">
+      <End Role="CallsRecorded" EntitySet="CallsRecorded" />
+      <End Role="FormsCallsEvaluated" EntitySet="FormsCallsEvaluated" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsCalls_Forms" Association="EvaluationAssisttModel.Store.FK_FormsCalls_Forms">
+      <End Role="Forms" EntitySet="Forms" />
+      <End Role="FormsCallsEvaluated" EntitySet="FormsCallsEvaluated" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsSections_Forms" Association="EvaluationAssisttModel.Store.FK_FormsSections_Forms">
+      <End Role="Forms" EntitySet="Forms" />
+      <End Role="FormsSections" EntitySet="FormsSections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsSections_Sections" Association="EvaluationAssisttModel.Store.FK_FormsSections_Sections">
+      <End Role="Sections" EntitySet="Sections" />
+      <End Role="FormsSections" EntitySet="FormsSections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Groups_Agents" Association="EvaluationAssisttModel.Store.FK_Groups_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="Groups" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Groups_Locations" Association="EvaluationAssisttModel.Store.FK_Groups_Locations">
+      <End Role="Locations" EntitySet="Locations" />
+      <End Role="Groups" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MessagesAgents_Agents_From" Association="EvaluationAssisttModel.Store.FK_MessagesAgents_Agents_From">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="MessagesAgents" EntitySet="MessagesAgents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MessagesAgents_Agents_To" Association="EvaluationAssisttModel.Store.FK_MessagesAgents_Agents_To">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="MessagesAgents" EntitySet="MessagesAgents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MessagesAgents_Messages" Association="EvaluationAssisttModel.Store.FK_MessagesAgents_Messages">
+      <End Role="Messages" EntitySet="Messages" />
+      <End Role="MessagesAgents" EntitySet="MessagesAgents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PagesAgents_Agents" Association="EvaluationAssisttModel.Store.FK_PagesAgents_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="PagesAgents" EntitySet="PagesAgents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PagesAgents_Pages" Association="EvaluationAssisttModel.Store.FK_PagesAgents_Pages">
+      <End Role="Pages" EntitySet="Pages" />
+      <End Role="PagesAgents" EntitySet="PagesAgents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sections_ScoreTypes" Association="EvaluationAssisttModel.Store.FK_Sections_ScoreTypes">
+      <End Role="ScoreTypes" EntitySet="ScoreTypes" />
+      <End Role="Sections" EntitySet="Sections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SectionsCategories_Categories" Association="EvaluationAssisttModel.Store.FK_SectionsCategories_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="SectionsCategories" EntitySet="SectionsCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SectionsCategories_Sections" Association="EvaluationAssisttModel.Store.FK_SectionsCategories_Sections">
+      <End Role="Sections" EntitySet="Sections" />
+      <End Role="SectionsCategories" EntitySet="SectionsCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teams_Agents" Association="EvaluationAssisttModel.Store.FK_Teams_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="Teams" EntitySet="Teams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teams_Groups" Association="EvaluationAssisttModel.Store.FK_Teams_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Teams" EntitySet="Teams" />
+    </AssociationSet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6035: The relationship 'FK_Agents_Agents' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+      -->
+  <EntityType Name="Agents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AgentTypeId" Type="int" Nullable="false" />
+    <Property Name="LoginId" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="IpPhone" Type="char" MaxLength="6" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TeamId" Type="int" />
+    <Property Name="RegisterNumber" Type="varchar" MaxLength="10" StoreGeneratedPattern="Computed" />
+    <Property Name="ViewCount" Type="int" Nullable="false" />
+    <Property Name="LastViewDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AgentTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Answers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnswerText" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+    <Property Name="Score" Type="smallint" Nullable="false" />
+    <Property Name="IsDefault" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AnswersCategoriesSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnswerId" Type="int" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="DoesZeroize" Type="bit" Nullable="false" />
+    <Property Name="DoesDisable" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AnswersQuestionsSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnswerId" Type="int" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+    <Property Name="DoesZeroize" Type="bit" Nullable="false" />
+    <Property Name="DoesDisable" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AnswersSectionsSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnswerId" Type="int" Nullable="false" />
+    <Property Name="SectionId" Type="int" Nullable="false" />
+    <Property Name="DoesZeroize" Type="bit" Nullable="false" />
+    <Property Name="DoesDisable" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CallsEvaluated">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FormCallId" Type="int" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+    <Property Name="AnswerId" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CallsRecorded">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FileName" Type="varchar" MaxLength="100" />
+    <Property Name="IpPhone" Type="char" MaxLength="6" />
+    <Property Name="DateStarted" Type="datetime" />
+    <Property Name="Duration" Type="int" Nullable="false" />
+    <Property Name="CallingDeviceId" Type="varchar" MaxLength="50" />
+    <Property Name="VdnName" Type="varchar" MaxLength="50" />
+    <Property Name="VdnExtension" Type="char" MaxLength="6" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="150" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="IsDisabled" Type="bit" Nullable="false" />
+    <Property Name="MaximumScore" Type="smallint" Nullable="false" />
+    <Property Name="MinimumScore" Type="smallint" Nullable="false" />
+    <Property Name="ScoreTypeId" Type="int" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CategoriesQuestions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Forms">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="RequiresComment" Type="bit" Nullable="false" />
+    <Property Name="MinimumScore" Type="smallint" />
+    <Property Name="MaximumScore" Type="smallint" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FormsCallsEvaluated">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FormId" Type="int" Nullable="false" />
+    <Property Name="CallId" Type="int" Nullable="false" />
+    <Property Name="AgentId" Type="int" Nullable="false" />
+    <Property Name="Score" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="AgentNote" Type="nvarchar(max)" />
+    <Property Name="AgentNoteSeen" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FormsSections">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FormId" Type="int" Nullable="false" />
+    <Property Name="SectionId" Type="int" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="AgentId" Type="int" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="250" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MessagesAgents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MessageId" Type="int" Nullable="false" />
+    <Property Name="FromId" Type="int" Nullable="false" />
+    <Property Name="ToId" Type="int" Nullable="false" />
+    <Property Name="IsRead" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" Nullable="false" />
+    <Property Name="IsCommon" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PagesAgents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AgentId" Type="int" Nullable="false" />
+    <Property Name="PageId" Type="int" Nullable="false" />
+    <Property Name="IsBookmarked" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="QuestionText" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HasComment" Type="bit" Nullable="false" />
+    <Property Name="RequiresComment" Type="bit" Nullable="false" />
+    <Property Name="HasVisibleScore" Type="bit" Nullable="false" />
+    <Property Name="HasMultipleAnswers" Type="bit" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ScoreTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sections">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="IsDisabled" Type="bit" Nullable="false" />
+    <Property Name="MaximumScore" Type="smallint" Nullable="false" />
+    <Property Name="MinimumScore" Type="smallint" Nullable="false" />
+    <Property Name="ScoreTypeId" Type="int" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SectionsCategories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SectionId" Type="int" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Teams">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="GroupId" Type="int" Nullable="false" />
+    <Property Name="AgentId" Type="int" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'EvaluationAssistt.dbo.Calls' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Calls">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="AgentId" />
+      <PropertyRef Name="LoginId" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="Duration" />
+      <PropertyRef Name="IsDeleted" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="FileName" Type="varchar" MaxLength="100" />
+    <Property Name="AgentId" Type="int" Nullable="false" />
+    <Property Name="LoginId" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IpPhone" Type="char" MaxLength="6" />
+    <Property Name="DateStarted" Type="datetime" />
+    <Property Name="Duration" Type="int" Nullable="false" />
+    <Property Name="CallingDeviceId" Type="varchar" MaxLength="50" />
+    <Property Name="VdnName" Type="varchar" MaxLength="50" />
+    <Property Name="VdnExtension" Type="char" MaxLength="6" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="150" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'EvaluationAssistt.dbo.FormsCalls' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="FormsCalls">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="FormId" />
+      <PropertyRef Name="FormName" />
+      <PropertyRef Name="CallId" />
+      <PropertyRef Name="EvaluatorId" />
+      <PropertyRef Name="EvaluatorFirstName" />
+      <PropertyRef Name="EvaluatorLastName" />
+      <PropertyRef Name="AgentId" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="Score" />
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="IsDeleted" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="FormId" Type="int" Nullable="false" />
+    <Property Name="FormName" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="DateStarted" Type="datetime" />
+    <Property Name="CallId" Type="int" Nullable="false" />
+    <Property Name="EvaluatorId" Type="int" Nullable="false" />
+    <Property Name="EvaluatorFirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EvaluatorLastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AgentId" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TeamId" Type="int" />
+    <Property Name="Score" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="AgentNote" Type="nvarchar(max)" />
+    <Property Name="AgentNoteSeen" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Agents_AgentTypes">
+    <End Role="AgentTypes" Type="EvaluationAssisttModel.Store.AgentTypes" Multiplicity="1" />
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AgentTypes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agents">
+        <PropertyRef Name="AgentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Agents_Teams">
+    <End Role="Teams" Type="EvaluationAssisttModel.Store.Teams" Multiplicity="0..1" />
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agents">
+        <PropertyRef Name="TeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Answers_Questions">
+    <End Role="Questions" Type="EvaluationAssisttModel.Store.Questions" Multiplicity="1" />
+    <End Role="Answers" Type="EvaluationAssisttModel.Store.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersCategoriesSettings_Answers">
+    <End Role="Answers" Type="EvaluationAssisttModel.Store.Answers" Multiplicity="1" />
+    <End Role="AnswersCategoriesSettings" Type="EvaluationAssisttModel.Store.AnswersCategoriesSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersCategoriesSettings">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersCategoriesSettings_Categories">
+    <End Role="Categories" Type="EvaluationAssisttModel.Store.Categories" Multiplicity="1" />
+    <End Role="AnswersCategoriesSettings" Type="EvaluationAssisttModel.Store.AnswersCategoriesSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersCategoriesSettings">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersQuestionsSettings_Answers">
+    <End Role="Answers" Type="EvaluationAssisttModel.Store.Answers" Multiplicity="1" />
+    <End Role="AnswersQuestionsSettings" Type="EvaluationAssisttModel.Store.AnswersQuestionsSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersQuestionsSettings">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersQuestionsSettings_Questions">
+    <End Role="Questions" Type="EvaluationAssisttModel.Store.Questions" Multiplicity="1" />
+    <End Role="AnswersQuestionsSettings" Type="EvaluationAssisttModel.Store.AnswersQuestionsSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersQuestionsSettings">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersSectionsSettings_Answers">
+    <End Role="Answers" Type="EvaluationAssisttModel.Store.Answers" Multiplicity="1" />
+    <End Role="AnswersSectionsSettings" Type="EvaluationAssisttModel.Store.AnswersSectionsSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersSectionsSettings">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersSectionsSettings_Sections">
+    <End Role="Sections" Type="EvaluationAssisttModel.Store.Sections" Multiplicity="1" />
+    <End Role="AnswersSectionsSettings" Type="EvaluationAssisttModel.Store.AnswersSectionsSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sections">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersSectionsSettings">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CallsEvaluated_Answers">
+    <End Role="Answers" Type="EvaluationAssisttModel.Store.Answers" Multiplicity="1" />
+    <End Role="CallsEvaluated" Type="EvaluationAssisttModel.Store.CallsEvaluated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CallsEvaluated">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CallsEvaluated_FormsCalls">
+    <End Role="FormsCallsEvaluated" Type="EvaluationAssisttModel.Store.FormsCallsEvaluated" Multiplicity="1" />
+    <End Role="CallsEvaluated" Type="EvaluationAssisttModel.Store.CallsEvaluated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FormsCallsEvaluated">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CallsEvaluated">
+        <PropertyRef Name="FormCallId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CallsEvaluated_Questions">
+    <End Role="Questions" Type="EvaluationAssisttModel.Store.Questions" Multiplicity="1" />
+    <End Role="CallsEvaluated" Type="EvaluationAssisttModel.Store.CallsEvaluated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CallsEvaluated">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Categories_ScoreTypes">
+    <End Role="ScoreTypes" Type="EvaluationAssisttModel.Store.ScoreTypes" Multiplicity="1" />
+    <End Role="Categories" Type="EvaluationAssisttModel.Store.Categories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScoreTypes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Categories">
+        <PropertyRef Name="ScoreTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CategoriesQuestions_Categories">
+    <End Role="Categories" Type="EvaluationAssisttModel.Store.Categories" Multiplicity="1" />
+    <End Role="CategoriesQuestions" Type="EvaluationAssisttModel.Store.CategoriesQuestions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CategoriesQuestions">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CategoriesQuestions_Questions">
+    <End Role="Questions" Type="EvaluationAssisttModel.Store.Questions" Multiplicity="1" />
+    <End Role="CategoriesQuestions" Type="EvaluationAssisttModel.Store.CategoriesQuestions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CategoriesQuestions">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsCalls_Agents">
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="1" />
+    <End Role="FormsCallsEvaluated" Type="EvaluationAssisttModel.Store.FormsCallsEvaluated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsCallsEvaluated">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsCalls_Calls">
+    <End Role="CallsRecorded" Type="EvaluationAssisttModel.Store.CallsRecorded" Multiplicity="1" />
+    <End Role="FormsCallsEvaluated" Type="EvaluationAssisttModel.Store.FormsCallsEvaluated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CallsRecorded">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsCallsEvaluated">
+        <PropertyRef Name="CallId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsCalls_Forms">
+    <End Role="Forms" Type="EvaluationAssisttModel.Store.Forms" Multiplicity="1" />
+    <End Role="FormsCallsEvaluated" Type="EvaluationAssisttModel.Store.FormsCallsEvaluated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Forms">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsCallsEvaluated">
+        <PropertyRef Name="FormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsSections_Forms">
+    <End Role="Forms" Type="EvaluationAssisttModel.Store.Forms" Multiplicity="1" />
+    <End Role="FormsSections" Type="EvaluationAssisttModel.Store.FormsSections" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Forms">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsSections">
+        <PropertyRef Name="FormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsSections_Sections">
+    <End Role="Sections" Type="EvaluationAssisttModel.Store.Sections" Multiplicity="1" />
+    <End Role="FormsSections" Type="EvaluationAssisttModel.Store.FormsSections" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sections">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsSections">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Groups_Agents">
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="1" />
+    <End Role="Groups" Type="EvaluationAssisttModel.Store.Groups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Groups">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Groups_Locations">
+    <End Role="Locations" Type="EvaluationAssisttModel.Store.Locations" Multiplicity="1" />
+    <End Role="Groups" Type="EvaluationAssisttModel.Store.Groups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Groups">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MessagesAgents_Agents_From">
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="1" />
+    <End Role="MessagesAgents" Type="EvaluationAssisttModel.Store.MessagesAgents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MessagesAgents">
+        <PropertyRef Name="FromId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MessagesAgents_Agents_To">
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="1" />
+    <End Role="MessagesAgents" Type="EvaluationAssisttModel.Store.MessagesAgents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MessagesAgents">
+        <PropertyRef Name="ToId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MessagesAgents_Messages">
+    <End Role="Messages" Type="EvaluationAssisttModel.Store.Messages" Multiplicity="1" />
+    <End Role="MessagesAgents" Type="EvaluationAssisttModel.Store.MessagesAgents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Messages">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MessagesAgents">
+        <PropertyRef Name="MessageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PagesAgents_Agents">
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PagesAgents" Type="EvaluationAssisttModel.Store.PagesAgents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PagesAgents">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PagesAgents_Pages">
+    <End Role="Pages" Type="EvaluationAssisttModel.Store.Pages" Multiplicity="1" />
+    <End Role="PagesAgents" Type="EvaluationAssisttModel.Store.PagesAgents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pages">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PagesAgents">
+        <PropertyRef Name="PageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sections_ScoreTypes">
+    <End Role="ScoreTypes" Type="EvaluationAssisttModel.Store.ScoreTypes" Multiplicity="1" />
+    <End Role="Sections" Type="EvaluationAssisttModel.Store.Sections" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScoreTypes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sections">
+        <PropertyRef Name="ScoreTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SectionsCategories_Categories">
+    <End Role="Categories" Type="EvaluationAssisttModel.Store.Categories" Multiplicity="1" />
+    <End Role="SectionsCategories" Type="EvaluationAssisttModel.Store.SectionsCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SectionsCategories">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SectionsCategories_Sections">
+    <End Role="Sections" Type="EvaluationAssisttModel.Store.Sections" Multiplicity="1" />
+    <End Role="SectionsCategories" Type="EvaluationAssisttModel.Store.SectionsCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sections">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SectionsCategories">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teams_Agents">
+    <End Role="Agents" Type="EvaluationAssisttModel.Store.Agents" Multiplicity="1" />
+    <End Role="Teams" Type="EvaluationAssisttModel.Store.Teams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Teams">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teams_Groups">
+    <End Role="Groups" Type="EvaluationAssisttModel.Store.Groups" Multiplicity="1" />
+    <End Role="Teams" Type="EvaluationAssisttModel.Store.Teams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Teams">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="ufnCallEvaluatedSummaries" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TeamId" Type="int" Mode="In" />
+    <Parameter Name="DateMin" Type="datetime" Mode="In" />
+    <Parameter Name="DateMax" Type="datetime" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="AgentName" Type="nvarchar" Nullable="false" MaxLength="101" />
+          <Property Name="TotalCallsEvaluated" Type="int" />
+          <Property Name="TotalCallsEvaluatedPercentage" Type="float" Nullable="false" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="ufnCallEvaluatedTeamLeaderSummaries" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AgentId" Type="int" Mode="In" />
+    <Parameter Name="DateMin" Type="datetime" Mode="In" />
+    <Parameter Name="DateMax" Type="datetime" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="FormName" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="TotalCallEvaluated" Type="int" />
+          <Property Name="Percentage" Type="float" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="ufnCallSummaries" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TeamId" Type="int" Mode="In" />
+    <Parameter Name="DateMin" Type="datetime" Mode="In" />
+    <Parameter Name="DateMax" Type="datetime" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="AgentName" Type="nvarchar" Nullable="false" MaxLength="101" />
+          <Property Name="TotalCall" Type="int" />
+          <Property Name="TotalDuration" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="ufnCallTeamSummaries" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="GroupId" Type="int" Mode="In" />
+    <Parameter Name="DateMin" Type="datetime" Mode="In" />
+    <Parameter Name="DateMax" Type="datetime" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="TeamName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="TotalCall" Type="int" />
+          <Property Name="TotalDuration" Type="bigint" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+</Schema>

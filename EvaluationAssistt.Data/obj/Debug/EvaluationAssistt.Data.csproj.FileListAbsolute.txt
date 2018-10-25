@@ -1,0 +1,164 @@
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EntityFramework.DLL
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EntityFramework.DLL
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll.config
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EntityFramework.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EntityFramework.xml
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll.config
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EntityFramework.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\bin\Debug\EntityFramework.xml
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll.config
+D:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.dll
+D:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.xml
+D:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll.config
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.xml
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+E:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll.config
+E:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+E:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+E:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.dll
+E:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+E:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+E:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.xml
+E:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+E:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+E:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+D:\hamit\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll.config
+D:\hamit\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+D:\hamit\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+D:\hamit\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.xml
+D:\hamit\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+D:\hamit\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb
+C:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll.config
+C:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.dll
+C:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Data.pdb
+C:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.dll
+C:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.dll
+C:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EvaluationAssistt.Domain.pdb
+C:\IBB_KD\EvaluationAssistt.Data\bin\Debug\EntityFramework.xml
+C:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+C:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.dll
+C:\IBB_KD\EvaluationAssistt.Data\obj\Debug\EvaluationAssistt.Data.pdb

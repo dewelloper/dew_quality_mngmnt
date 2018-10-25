@@ -1,0 +1,80 @@
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Presenter.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Service.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Data.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Presenter\obj\Debug\AssessmentForm.Presenter.pdb

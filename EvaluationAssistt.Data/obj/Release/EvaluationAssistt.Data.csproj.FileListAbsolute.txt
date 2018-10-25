@@ -1,0 +1,2 @@
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Data\obj\Release\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Data\obj\Release\EvaluationAssistt.Data.csprojResolveAssemblyReference.cache

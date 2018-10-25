@@ -1,0 +1,92 @@
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\Model.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\Model.xml
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+D:\Assist\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\Model.xml
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\Model.xml
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\Model.xml
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+D:\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+D:\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+D:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+D:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+D:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\Model.xml
+D:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+D:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+D:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\obj\Debug\Model.xml
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb
+C:\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dacpac
+C:\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.dll
+C:\IBB_KD\EvaluationAssistt.SQL\bin\Debug\EvaluationAssistt.SQL.pdb
+C:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\Model.xml
+C:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\refactor.xml
+C:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\postdeploy.sql
+C:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\predeploy.sql
+C:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.dll
+C:\IBB_KD\EvaluationAssistt.SQL\obj\Debug\EvaluationAssistt.SQL.pdb

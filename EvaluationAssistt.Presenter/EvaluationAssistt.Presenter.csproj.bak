@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BF474BC-E4C1-4681-BEDC-67C259032DEF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EvaluationAssistt.Presenter</RootNamespace>
+    <AssemblyName>EvaluationAssistt.Presenter</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'test|AnyCPU'">
+    <OutputPath>bin\test\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\IAgentManagementView.cs" />
+    <Compile Include="Interfaces\ICallManagementView.cs" />
+    <Compile Include="Interfaces\ICategoryManagementView.cs" />
+    <Compile Include="Interfaces\ICategoryQuestionsManagementView.cs" />
+    <Compile Include="Interfaces\IEvaluationAssisttPage.cs" />
+    <Compile Include="Interfaces\IFormManagementView.cs" />
+    <Compile Include="Interfaces\IFormSectionsManagementView.cs" />
+    <Compile Include="Interfaces\IFormSettingsView.cs" />
+    <Compile Include="Interfaces\IGroupManagementView.cs" />
+    <Compile Include="Interfaces\IHomeView.cs" />
+    <Compile Include="Interfaces\ILocationManagementView.cs" />
+    <Compile Include="Interfaces\ILoginView.cs" />
+    <Compile Include="Interfaces\IMainView.cs" />
+    <Compile Include="Interfaces\IMessageView.cs" />
+    <Compile Include="Interfaces\IProfileManagementView.cs" />
+    <Compile Include="Interfaces\IQuestionManagementView.cs" />
+    <Compile Include="Interfaces\IQuestionnairesEvaluatedListView.cs" />
+    <Compile Include="Interfaces\IQuestionnairesEvaluatedView.cs" />
+    <Compile Include="Interfaces\IQuestionnairesView.cs" />
+    <Compile Include="Interfaces\IReportingView.cs" />
+    <Compile Include="Interfaces\ISectionCategoriesManagementView.cs" />
+    <Compile Include="Interfaces\ISectionManagementView.cs" />
+    <Compile Include="Interfaces\ITeamManagementView.cs" />
+    <Compile Include="Presenters\AgentManagementPresenter.cs" />
+    <Compile Include="Presenters\CallManagementPresenter.cs" />
+    <Compile Include="Presenters\CategoryManagementPresenter.cs" />
+    <Compile Include="Presenters\CategoryQuestionsManagementPresenter.cs" />
+    <Compile Include="Presenters\EvaluationAssisttPagePresenter.cs" />
+    <Compile Include="Presenters\EvaluationReportingPresenter.cs" />
+    <Compile Include="Presenters\FormManagementPresenter.cs" />
+    <Compile Include="Presenters\FormSectionsManagementPresenter.cs" />
+    <Compile Include="Presenters\FormSettingsPresenter.cs" />
+    <Compile Include="Presenters\GroupManagementPresenter.cs" />
+    <Compile Include="Presenters\HomePresenter.cs" />
+    <Compile Include="Presenters\LocationManagementPresenter.cs" />
+    <Compile Include="Presenters\LoginPresenter.cs" />
+    <Compile Include="Presenters\MainPresenter.cs" />
+    <Compile Include="Presenters\MessagePresenter.cs" />
+    <Compile Include="Presenters\ProfileManagementPresenter.cs" />
+    <Compile Include="Presenters\QuestionManagementPresenter.cs" />
+    <Compile Include="Presenters\QuestionnairesEvaluatedListPresenter.cs" />
+    <Compile Include="Presenters\QuestionnairesEvaluatedPresenter.cs" />
+    <Compile Include="Presenters\QuestionnairesPresenter.cs" />
+    <Compile Include="Presenters\SectionCategoriesManagementPresenter.cs" />
+    <Compile Include="Presenters\SectionManagementPresenter.cs" />
+    <Compile Include="Presenters\TeamManagementPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EvaluationAssistt.Data\EvaluationAssistt.Data.csproj">
+      <Project>{c57f3a5b-0eae-4888-a321-b72c940928cf}</Project>
+      <Name>EvaluationAssistt.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EvaluationAssistt.Domain\EvaluationAssistt.Domain.csproj">
+      <Project>{1bc4f1f1-e0c0-4734-ab5f-d68cb2d2371a}</Project>
+      <Name>EvaluationAssistt.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EvaluationAssistt.Infrastructure\EvaluationAssistt.Infrastructure.csproj">
+      <Project>{3409171a-2110-4565-97fb-4a67a895d95a}</Project>
+      <Name>EvaluationAssistt.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EvaluationAssistt.Service\EvaluationAssistt.Service.csproj">
+      <Project>{e5945b50-6375-4932-a3b1-8a4718bf7e79}</Project>
+      <Name>EvaluationAssistt.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

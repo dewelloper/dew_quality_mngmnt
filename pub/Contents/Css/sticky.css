@@ -1,0 +1,118 @@
+﻿
+
+
+
+
+
+
+.nav-container {
+    margin-bottom: 2em;
+    width: 100%;
+    margin-right: -2em;
+}
+
+.nav-container nav {
+    z-index: 42;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 928px;
+    padding: 1em 3em;
+    margin-left: -14px;
+    background: rgba(132,138,106,0.7);
+    filter: alpha(opacity=80); /* IE6-IE8 */
+    position: relative;
+    border-top-left-radius: 1em 0.5em;
+    border-top-right-radius: 1em 0.5em;
+}
+
+.nav-left {
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    width: 14px;
+    height: 14px;
+    background: #848a6a;
+    background: rgba(132,138,106,0.7);
+    border-bottom-left-radius: 100% 50%;
+}
+
+    .nav-left:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 66%;
+        height: 66%;
+        background: #000;
+        border-top-left-radius: 100% 50%;
+        border-bottom-left-radius: 100% 50%;
+    }
+
+.nav-right {
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 14px;
+    height: 14px;
+    background: #848a6a;
+    background: rgba(132,138,106,0.7);
+    border-bottom-right-radius: 100% 50%;
+}
+
+    .nav-right:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 66%;
+        height: 66%;
+        background: #000;
+        border-top-right-radius: 100% 50%;
+        border-bottom-right-radius: 100% 50%;
+    }
+
+.nav-container nav li {
+    display: inline;
+    list-style: none;
+}
+
+    .nav-container nav li a {
+        text-decoration: none;
+        font-size: 1em;
+        color: #2c2e24;
+        font-weight: bold;
+        display: inline-block;
+        width: 7em;
+        text-align: center;
+        padding: .5em 1em;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+    }
+
+        .nav-container nav li a:hover,
+        .nav-container nav li a.selected {
+            color: #fff;
+            background: #40bfe8;
+        }
+
+
+
+
+.sticky {
+    position: fixed;
+    top: 15px;
+    animation: thedrop 1s 1;
+    -moz-animation: thedrop 1s 1;
+    -webkit-animation: thedrop 1s 1;
+}
+
+    .sticky .nav-above {
+        position: absolute;
+        top: -15px;
+        left: 1em;
+        right: 1em;
+        height: 15px;
+        background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 80%);
+        background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+        background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    }

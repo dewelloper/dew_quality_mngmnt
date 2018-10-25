@@ -1,0 +1,48 @@
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\AssessmentForm.Infrastructure.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Infrastructure\obj\Debug\AssessmentForm.Infrastructure.pdb

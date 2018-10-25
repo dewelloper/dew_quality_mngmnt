@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BC4F1F1-E0C0-4734-AB5F-D68CB2D2371A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EvaluationAssistt.Domain</RootNamespace>
+    <AssemblyName>EvaluationAssistt.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'test|AnyCPU'">
+    <OutputPath>bin\test\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseDto.cs" />
+    <Compile Include="Dto\AgentsDto.cs" />
+    <Compile Include="Dto\AgentTypesDto.cs" />
+    <Compile Include="Dto\AnswersCategoriesSettingsDto.cs" />
+    <Compile Include="Dto\AnswersDto.cs" />
+    <Compile Include="Dto\AnswersQuestionsSettingsDto.cs" />
+    <Compile Include="Dto\AnswersSectionsSettingsDto.cs" />
+    <Compile Include="Dto\CallsDto.cs" />
+    <Compile Include="Dto\CallsOfAgentDto.cs" />
+    <Compile Include="Dto\CategoriesDto.cs" />
+    <Compile Include="Dto\CategoriesQuestionsDto.cs" />
+    <Compile Include="Dto\CategoryPointDto.cs" />
+    <Compile Include="Dto\CategoryReportsDto.cs" />
+    <Compile Include="Dto\FlagsDto.cs" />
+    <Compile Include="Dto\FormsCallsDto.cs" />
+    <Compile Include="Dto\FormsDto.cs" />
+    <Compile Include="Dto\FormsSectionsDto.cs" />
+    <Compile Include="Dto\GroupsDto.cs" />
+    <Compile Include="Dto\LocationsDto.cs" />
+    <Compile Include="Dto\MessagesDto.cs" />
+    <Compile Include="Dto\PagesAgentsDto.cs" />
+    <Compile Include="Dto\PagesDto.cs" />
+    <Compile Include="Dto\QAnswerPerPercentDto.cs" />
+    <Compile Include="Dto\QuestionsDto.cs" />
+    <Compile Include="Dto\ScoreTypesDto.cs" />
+    <Compile Include="Dto\SectionsCategoriesDto.cs" />
+    <Compile Include="Dto\SectionsDto.cs" />
+    <Compile Include="Dto\TeamCallsDto.cs" />
+    <Compile Include="Dto\TeamsDto.cs" />
+    <Compile Include="Entity\Agents.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\AgentTypes.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Answers.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\AnswersCategoriesSettings.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\AnswersQuestionsSettings.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\AnswersSectionsSettings.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Calls.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\CallsEvaluated.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\CallsRecorded.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\CallsTemporary.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Categories.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\CategoriesQuestions.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\DetailFormView.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\EvaluatedDetailView.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\EvaluationAssisttModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvaluationAssisttModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\EvaluationAssisttModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\EvaluationAssisttModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvaluationAssisttModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Flags.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\FormCallsEvaluatedStateTypes.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Forms.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\FormsCalls.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\FormsCallsEvaluated.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\FormsSections.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\GetCatAnswers_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\getLocations_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Groups.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Locations.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Messages.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\MessagesAgents.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Pages.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\PagesAgents.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Questions.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ScoreTypes.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Sections.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\SectionsCategories.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\sp_helpdiagrams_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\sysdiagrams.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Teams.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ufnCallEvaluatedSummaries_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ufnCallEvaluatedTeamLeaderSummaries_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ufnCallSummaries_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ufnCallTeamSummaries_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ufnFormSettings_Result.cs">
+      <DependentUpon>EvaluationAssisttModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Custom\" />
+    <Folder Include="Partial\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Entity\EvaluationAssisttModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>EvaluationAssisttModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Entity\EvaluationAssisttModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EvaluationAssisttModel.edmx</DependentUpon>
+      <LastGenOutput>EvaluationAssisttModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Entity\EvaluationAssisttModel.edmx.diagram">
+      <DependentUpon>EvaluationAssisttModel.edmx</DependentUpon>
+    </None>
+    <None Include="Entity\EvaluationAssisttModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EvaluationAssisttModel.edmx</DependentUpon>
+      <LastGenOutput>EvaluationAssisttModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,45 @@
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\de\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\es\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\ja\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Release\ru\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Release\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Release\EvaluationAssistt.Infrastructure.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\EvaluationAssistt.Infrastructure.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\EvaluationAssistt.Infrastructure.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.ASPxEditors.v12.1.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.v12.1.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.Unity.DLL
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.ASPxEditors.v12.1.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\DevExpress.Web.v12.1.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\de\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\es\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\ja\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Release\ru\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Release\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Release\EvaluationAssistt.Infrastructure.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Release\EvaluationAssistt.Infrastructure.pdb

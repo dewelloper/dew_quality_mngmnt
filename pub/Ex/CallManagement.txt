@@ -1,0 +1,110 @@
+﻿Available Agents - Selected Agents UI :
+
+....
+(
+<div class="widget_contents noPadding">
+   <div class="line_grid">
+)
+				<div>
+                    <div style="float: left; width: 35%;">
+                        <dx:ASPxListBox ID="lstboxAgentsAvailable" ClientInstanceName="lstboxAgentsAvailable" runat="server" ValueType="System.Int32" Width="100%" Height="300px" SelectionMode="CheckColumn">
+                            <ClientSideEvents SelectedIndexChanged="function(s, e) { UpdateButtonState(); }" Init="function(s,e) { UpdateButtonState(); }" />
+                        </dx:ASPxListBox>--%>
+                    </div>
+                    <div style="float: left; width: 30%;">
+                        <div style="display: table; margin: 0 auto;">
+                            <br />
+                            <br />
+                            <br />
+                            <input type="button" id="btnAdd" value="Ekle" onclick="AddSelectedItems();" />
+                            <br />
+                            <br />
+                            <input type="button" id="btnRemove" value="Çıkart" onclick="RemoveSelectedItems();" />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <input type="button" id="btnAddAll" value="Tümünü Ekle" onclick="AddAllItems();" />
+                            <br />
+                            <br />
+                            <input type="button" id="btnRemoveAll" value="Tümünü Çıkart" onclick="RemoveAllItems();" />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                    <div style="float: left; width: 35%;">
+                        <dx:ASPxListBox ID="lstboxAgentsAdded" ClientInstanceName="lstboxAgentsAdded" runat="server" ValueType="System.Int32" Width="100%" Height="300px" SelectionMode="CheckColumn">
+                            <ClientSideEvents SelectedIndexChanged="function(s, e) { UpdateButtonState(); }" Init="function(s,e) { UpdateButtonState(); }" />
+                        </dx:ASPxListBox>--%>
+                    </div>
+                </div>
+
+JavaScript Codes :
+
+		function AddSelectedItems() {
+            MoveSelectedItems(lstboxAgentsAvailable, lstboxAgentsAdded);
+            UpdateButtonState();
+        }
+
+        function RemoveSelectedItems() {
+            MoveSelectedItems(lstboxAgentsAdded, lstboxAgentsAvailable);
+            UpdateButtonState();
+        }
+
+        function AddAllItems() {
+            lstboxAgentsAvailable.SelectAll();
+            MoveSelectedItems(lstboxAgentsAvailable, lstboxAgentsAdded);
+            UpdateButtonState();
+        }
+
+        function RemoveAllItems() {
+            lstboxAgentsAdded.SelectAll();
+            MoveSelectedItems(lstboxAgentsAdded, lstboxAgentsAvailable);
+            UpdateButtonState();
+        }
+
+        function MoveSelectedItems(srcListBox, dstListBox) {
+            srcListBox.BeginUpdate();
+            dstListBox.BeginUpdate();
+            var items = srcListBox.GetSelectedItems();
+            for (var i = items.length - 1; i >= 0; i = i - 1) {
+                dstListBox.AddItem(items[i].text, items[i].value, "");
+                srcListBox.RemoveItem(items[i].index);
+            }
+            srcListBox.EndUpdate();
+            dstListBox.EndUpdate();
+        }
+
+        function UpdateButtonState() {
+
+            var disableAdd = lstboxAgentsAvailable.GetSelectedItems().length > 0;
+            var disableRemove = lstboxAgentsAdded.GetSelectedItems().length > 0;
+
+            if (!disableAdd) {
+                $("#btnAdd").attr("disabled", "disabled");
+            }
+            else {
+                $("#btnAdd").removeAttr("disabled");
+            }
+
+            if (!disableRemove) {
+                $("#btnRemove").attr("disabled", "disabled");
+            }
+            else {
+                $("#btnRemove").removeAttr("disabled");
+            }
+
+            var disableAddAll = lstboxAgentsAvailable.GetItemCount() > 0;
+            var disableRemoveAll = lstboxAgentsAdded.GetItemCount() > 0;
+
+            if (!disableAddAll)
+            { $("#btnAddAll").attr("disabled", "disabled"); }
+            else
+            { $("#btnAddAll").removeAttr("disabled"); }
+            if (!disableRemoveAll)
+            { $("#btnRemoveAll").attr("disabled", "disabled"); }
+            else
+            { $("#btnRemoveAll").removeAttr("disabled"); }
+        }

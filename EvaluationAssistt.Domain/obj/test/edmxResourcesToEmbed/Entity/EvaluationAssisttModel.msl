@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EvaluationAssisttModelStoreContainer" CdmEntityContainer="EvaluationAssisttEntities">
+    <FunctionImportMapping FunctionImportName="ufnCallSummaries" FunctionName="EvaluationAssisttModel.Store.ufnCallSummaries">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EvaluationAssisttModel.ufnCallSummaries_Result">
+          <ScalarProperty Name="AgentName" ColumnName="AgentName" />
+          <ScalarProperty Name="TotalCall" ColumnName="TotalCall" />
+          <ScalarProperty Name="TotalDuration" ColumnName="TotalDuration" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ufnCallEvaluatedSummaries" FunctionName="EvaluationAssisttModel.Store.ufnCallEvaluatedSummaries">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EvaluationAssisttModel.ufnCallEvaluatedSummaries_Result">
+          <ScalarProperty Name="AgentName" ColumnName="AgentName" />
+          <ScalarProperty Name="TotalCallsEvaluated" ColumnName="TotalCallsEvaluated" />
+          <ScalarProperty Name="TotalCallsEvaluatedPercentage" ColumnName="TotalCallsEvaluatedPercentage" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ufnCallEvaluatedTeamLeaderSummaries" FunctionName="EvaluationAssisttModel.Store.ufnCallEvaluatedTeamLeaderSummaries">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EvaluationAssisttModel.ufnCallEvaluatedTeamLeaderSummaries_Result">
+          <ScalarProperty Name="FormName" ColumnName="FormName" />
+          <ScalarProperty Name="TotalCallEvaluated" ColumnName="TotalCallEvaluated" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ufnCallTeamSummaries" FunctionName="EvaluationAssisttModel.Store.ufnCallTeamSummaries">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EvaluationAssisttModel.ufnCallTeamSummaries_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TeamName" ColumnName="TeamName" />
+          <ScalarProperty Name="TotalCall" ColumnName="TotalCall" />
+          <ScalarProperty Name="TotalDuration" ColumnName="TotalDuration" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="AgentTypes">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.AgentTypes">
+        <MappingFragment StoreEntitySet="AgentTypes">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Answers">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Answers">
+        <MappingFragment StoreEntitySet="Answers">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="AnswerText" ColumnName="AnswerText" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnswersCategoriesSettings">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.AnswersCategoriesSettings">
+        <MappingFragment StoreEntitySet="AnswersCategoriesSettings">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DoesDisable" ColumnName="DoesDisable" />
+          <ScalarProperty Name="DoesZeroize" ColumnName="DoesZeroize" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnswersQuestionsSettings">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.AnswersQuestionsSettings">
+        <MappingFragment StoreEntitySet="AnswersQuestionsSettings">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DoesDisable" ColumnName="DoesDisable" />
+          <ScalarProperty Name="DoesZeroize" ColumnName="DoesZeroize" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnswersSectionsSettings">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.AnswersSectionsSettings">
+        <MappingFragment StoreEntitySet="AnswersSectionsSettings">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DoesDisable" ColumnName="DoesDisable" />
+          <ScalarProperty Name="DoesZeroize" ColumnName="DoesZeroize" />
+          <ScalarProperty Name="SectionId" ColumnName="SectionId" />
+          <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CallsEvaluated">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.CallsEvaluated">
+        <MappingFragment StoreEntitySet="CallsEvaluated">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="FormCallId" ColumnName="FormCallId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CallsRecorded">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.CallsRecorded">
+        <MappingFragment StoreEntitySet="CallsRecorded">
+          <ScalarProperty Name="OnEstablishedEventIx" ColumnName="OnEstablishedEventIx" />
+          <ScalarProperty Name="Marked" ColumnName="Marked" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="AcdGroup" ColumnName="AcdGroup" />
+          <ScalarProperty Name="VdnExtension" ColumnName="VdnExtension" />
+          <ScalarProperty Name="VdnName" ColumnName="VdnName" />
+          <ScalarProperty Name="CalledDeviceId" ColumnName="CalledDeviceId" />
+          <ScalarProperty Name="CallingDeviceId" ColumnName="CallingDeviceId" />
+          <ScalarProperty Name="AnsweringDeviceId" ColumnName="AnsweringDeviceId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="GloballyUniqueCallLinkageID" ColumnName="GloballyUniqueCallLinkageID" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="DateStarted" ColumnName="DateStarted" />
+          <ScalarProperty Name="IpPhone" ColumnName="IpPhone" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Categories">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ScoreTypeId" ColumnName="ScoreTypeId" />
+          <ScalarProperty Name="MinimumScore" ColumnName="MinimumScore" />
+          <ScalarProperty Name="MaximumScore" ColumnName="MaximumScore" />
+          <ScalarProperty Name="IsDisabled" ColumnName="IsDisabled" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoriesQuestions">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.CategoriesQuestions">
+        <MappingFragment StoreEntitySet="CategoriesQuestions">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Forms">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Forms">
+        <MappingFragment StoreEntitySet="Forms">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CategoriesBasedScore" ColumnName="CategoriesBasedScore" />
+          <ScalarProperty Name="MaximumScore" ColumnName="MaximumScore" />
+          <ScalarProperty Name="MinimumScore" ColumnName="MinimumScore" />
+          <ScalarProperty Name="RequiresComment" ColumnName="RequiresComment" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FormsCallsEvaluated">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.FormsCallsEvaluated">
+        <MappingFragment StoreEntitySet="FormsCallsEvaluated">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AgentNoteSeen" ColumnName="AgentNoteSeen" />
+          <ScalarProperty Name="AgentNote" ColumnName="AgentNote" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+          <ScalarProperty Name="CallId" ColumnName="CallId" />
+          <ScalarProperty Name="FormId" ColumnName="FormId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FormsSections">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.FormsSections">
+        <MappingFragment StoreEntitySet="FormsSections">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="SectionId" ColumnName="SectionId" />
+          <ScalarProperty Name="FormId" ColumnName="FormId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Groups">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Locations">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Messages">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessagesAgents">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.MessagesAgents">
+        <MappingFragment StoreEntitySet="MessagesAgents">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="ToId" ColumnName="ToId" />
+          <ScalarProperty Name="FromId" ColumnName="FromId" />
+          <ScalarProperty Name="MessageId" ColumnName="MessageId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pages">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Pages">
+        <MappingFragment StoreEntitySet="Pages">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsCommon" ColumnName="IsCommon" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PagesAgents">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.PagesAgents">
+        <MappingFragment StoreEntitySet="PagesAgents">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsBookmarked" ColumnName="IsBookmarked" />
+          <ScalarProperty Name="PageId" ColumnName="PageId" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Questions">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="HasMultipleAnswers" ColumnName="HasMultipleAnswers" />
+          <ScalarProperty Name="HasVisibleScore" ColumnName="HasVisibleScore" />
+          <ScalarProperty Name="RequiresComment" ColumnName="RequiresComment" />
+          <ScalarProperty Name="HasComment" ColumnName="HasComment" />
+          <ScalarProperty Name="QuestionText" ColumnName="QuestionText" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScoreTypes">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.ScoreTypes">
+        <MappingFragment StoreEntitySet="ScoreTypes">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sections">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Sections">
+        <MappingFragment StoreEntitySet="Sections">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ScoreTypeId" ColumnName="ScoreTypeId" />
+          <ScalarProperty Name="MinimumScore" ColumnName="MinimumScore" />
+          <ScalarProperty Name="MaximumScore" ColumnName="MaximumScore" />
+          <ScalarProperty Name="IsDisabled" ColumnName="IsDisabled" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SectionsCategories">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.SectionsCategories">
+        <MappingFragment StoreEntitySet="SectionsCategories">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="SectionId" ColumnName="SectionId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teams">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Teams">
+        <MappingFragment StoreEntitySet="Teams">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FormsCalls">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.FormsCalls">
+        <MappingFragment StoreEntitySet="FormsCalls">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AgentNoteSeen" ColumnName="AgentNoteSeen" />
+          <ScalarProperty Name="AgentNote" ColumnName="AgentNote" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="TeamId" ColumnName="TeamId" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+          <ScalarProperty Name="EvaluatorLastName" ColumnName="EvaluatorLastName" />
+          <ScalarProperty Name="EvaluatorFirstName" ColumnName="EvaluatorFirstName" />
+          <ScalarProperty Name="EvaluatorId" ColumnName="EvaluatorId" />
+          <ScalarProperty Name="CallId" ColumnName="CallId" />
+          <ScalarProperty Name="DateStarted" ColumnName="DateStarted" />
+          <ScalarProperty Name="FormName" ColumnName="FormName" />
+          <ScalarProperty Name="FormId" ColumnName="FormId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Agents">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Agents">
+        <MappingFragment StoreEntitySet="Agents">
+          <ScalarProperty Name="EvaluatedCallCount" ColumnName="EvaluatedCallCount" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="LastViewDate" ColumnName="LastViewDate" />
+          <ScalarProperty Name="ViewCount" ColumnName="ViewCount" />
+          <ScalarProperty Name="AllGroupsAccess" ColumnName="AllGroupsAccess" />
+          <ScalarProperty Name="RegisterNumber" ColumnName="RegisterNumber" />
+          <ScalarProperty Name="TeamId" ColumnName="TeamId" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="IpPhone" ColumnName="IpPhone" />
+          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
+          <ScalarProperty Name="AgentTypeId" ColumnName="AgentTypeId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ufnFormSettings" FunctionName="EvaluationAssisttModel.Store.ufnFormSettings">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EvaluationAssisttModel.ufnFormSettings_Result">
+          <ScalarProperty Name="QuestionText" ColumnName="QuestionText" />
+          <ScalarProperty Name="AnswerText" ColumnName="AnswerText" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="TargetName" ColumnName="TargetName" />
+          <ScalarProperty Name="DoesZeroize" ColumnName="DoesZeroize" />
+          <ScalarProperty Name="DoesDisable" ColumnName="DoesDisable" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getLocations" FunctionName="EvaluationAssisttModel.Store.getLocations">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EvaluationAssisttModel.getLocations_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="uspActiveDirectorySyncLocations" FunctionName="EvaluationAssisttModel.Store.uspActiveDirectorySyncLocations" />
+    <FunctionImportMapping FunctionImportName="uspActiveDirectorySyncUsers" FunctionName="EvaluationAssisttModel.Store.uspActiveDirectorySyncUsers" />
+    <FunctionImportMapping FunctionImportName="uspCLRSyncLocations" FunctionName="EvaluationAssisttModel.Store.uspCLRSyncLocations" />
+    <FunctionImportMapping FunctionImportName="uspCLRSyncUsers" FunctionName="EvaluationAssisttModel.Store.uspCLRSyncUsers" />
+    <FunctionImportMapping FunctionImportName="uspImportCalls" FunctionName="EvaluationAssisttModel.Store.uspImportCalls" />
+    <EntitySetMapping Name="CallsTemporary">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.CallsTemporary">
+        <MappingFragment StoreEntitySet="CallsTemporary">
+          <ScalarProperty Name="OnEstablishedEventIx" ColumnName="OnEstablishedEventIx" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Marked" ColumnName="Marked" />
+          <ScalarProperty Name="AcdGroup" ColumnName="AcdGroup" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="VdnExtension" ColumnName="VdnExtension" />
+          <ScalarProperty Name="VdnName" ColumnName="VdnName" />
+          <ScalarProperty Name="CalledDeviceId" ColumnName="CalledDeviceId" />
+          <ScalarProperty Name="CallingDeviceId" ColumnName="CallingDeviceId" />
+          <ScalarProperty Name="AnsweringDeviceId" ColumnName="AnsweringDeviceId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="GloballyUniqueCallLinkageID" ColumnName="GloballyUniqueCallLinkageID" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="DateStarted" ColumnName="DateStarted" />
+          <ScalarProperty Name="IpPhone" ColumnName="IpPhone" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Calls">
+      <EntityTypeMapping TypeName="EvaluationAssisttModel.Calls">
+        <MappingFragment StoreEntitySet="Calls">
+          <ScalarProperty Name="OnEstablishedEventIx" ColumnName="OnEstablishedEventIx" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Marked" ColumnName="Marked" />
+          <ScalarProperty Name="AcdGroup" ColumnName="AcdGroup" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="VdnExtension" ColumnName="VdnExtension" />
+          <ScalarProperty Name="VdnName" ColumnName="VdnName" />
+          <ScalarProperty Name="CalledDeviceId" ColumnName="CalledDeviceId" />
+          <ScalarProperty Name="CallingDeviceId" ColumnName="CallingDeviceId" />
+          <ScalarProperty Name="AnsweringDeviceId" ColumnName="AnsweringDeviceId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="GloballyUniqueCallLinkageID" ColumnName="GloballyUniqueCallLinkageID" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="DateStarted" ColumnName="DateStarted" />
+          <ScalarProperty Name="IpPhone" ColumnName="IpPhone" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

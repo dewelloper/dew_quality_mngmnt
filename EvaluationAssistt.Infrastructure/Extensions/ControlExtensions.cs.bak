@@ -1,0 +1,89 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace EvaluationAssistt.Infrastructure.Extensions
+{
+    public static class ControlExtensions
+    {
+        public static void Clear(this System.Web.UI.WebControls.Panel panel)
+        {
+            var textbox_list =
+            (from p in panel.Controls.OfType<System.Web.UI.WebControls.TextBox>()
+              select p).ToList();
+
+            textbox_list.ForEach(x => x.Text = String.Empty);
+
+            var combobox_list =
+            (from p in panel.Controls.OfType<DevExpress.Web.ASPxEditors.ASPxComboBox>()
+              select p).ToList();
+
+            combobox_list.ForEach(x => x.SelectedItem = null);
+
+            var spinedit_list =
+            (from p in panel.Controls.OfType<DevExpress.Web.ASPxEditors.ASPxSpinEdit>()
+              select p).ToList();
+
+            spinedit_list.ForEach(x => x.Value = null);
+
+            var checkbox_list =
+            (from p in panel.Controls.OfType<System.Web.UI.HtmlControls.HtmlInputCheckBox>()
+              select p).ToList();
+
+            checkbox_list.ForEach(x => x.Checked = false);
+
+            var listbox_list =
+            (from p in panel.Controls.OfType<DevExpress.Web.ASPxEditors.ASPxListBox>()
+              select p).ToList();
+
+            listbox_list.ForEach(x => x.SelectedItem = null);
+
+            var label_list =
+            (from p in panel.Controls.OfType<System.Web.UI.WebControls.Label>()
+              select p).ToList();
+
+            label_list.ForEach(x => x.Text = String.Empty);
+        }
+
+        public static string GetPostBackControlId(this System.Web.UI.Page page)
+        {
+            if (!page.IsPostBack)
+            {
+                return string.Empty;
+            }
+            System.Web.UI.Control control = null;
+            var controlName = page.Request.Params["__EVENTTARGET"];
+            if (!String.IsNullOrEmpty(controlName))
+            {
+                control = page.FindControl(controlName);
+            }
+            else
+            {
+                string controlId;
+                System.Web.UI.Control foundControl;
+
+                foreach (string ctl in page.Request.Form)
+                {
+                    if (ctl.EndsWith(".x") || ctl.EndsWith(".y"))
+                    {
+                        controlId = ctl.Substring(0, ctl.Length - 2);
+                        foundControl = page.FindControl(controlId);
+                    }
+                    else
+                    {
+                        foundControl = page.FindControl(ctl);
+                    }
+
+                    if (!(foundControl is System.Web.UI.WebControls.Button || foundControl is System.Web.UI.WebControls.ImageButton))
+                    {
+                        continue;
+                    }
+                    control = foundControl;
+                    break;
+                }
+            }
+
+            return control == null ? String.Empty : control.ID;
+        }
+    }
+}

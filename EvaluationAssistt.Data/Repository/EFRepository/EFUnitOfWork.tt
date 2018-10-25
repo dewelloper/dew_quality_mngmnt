@@ -1,0 +1,158 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ include file="EF.Utility.CS.ttinclude"#>
+<# 
+	CodeGenerationTools code = new CodeGenerationTools(this);
+	MetadataTools ef = new MetadataTools(this);
+	MetadataLoader loader = new MetadataLoader(this);
+	CodeRegion region = new CodeRegion(this);
+
+	string solutionPath = Host.ResolveAssemblyReference("$(SolutionDir)");
+	string inputFile = solutionPath + "EvaluationAssistt.Domain\\Entity\\EvaluationAssisttModel.edmx";
+	EdmItemCollection ItemCollection = loader.CreateEdmItemCollection(inputFile);
+
+	string namespaceName = code.VsNamespaceSuggestion();
+
+	EntityContainer container = ItemCollection.GetItems<EntityContainer>().FirstOrDefault();
+	if (container == null)
+	{
+		return "// No EntityContainer exists in the model, so no code was generated";
+	}
+#>
+using System;
+using EvaluationAssistt.Domain.Entity;
+using EvaluationAssistt.Data.Interface;
+
+<#
+if (!String.IsNullOrEmpty(namespaceName))
+{
+#>
+namespace <#=code.EscapeNamespace(namespaceName)#>
+{
+<#
+    PushIndent(CodeRegion.GetIndent(1));
+}
+#>
+<#=Accessibility.ForType(container)#> class EFUnitOfWork : IUnitOfWork
+{
+    #region Fields
+
+	private readonly <#=code.Escape(container)#> _context;
+
+    #endregion
+
+<#
+		region.Begin("Private Repositories", 2);
+#>
+
+<#
+		foreach (EntitySet entitySet in container.BaseEntitySets.OfType<EntitySet>())
+		{
+#>
+	private readonly Lazy<IRepository<<#=code.Escape(entitySet.ElementType)#>>> <#= FixRepositoryName(code.Escape(entitySet.ElementType))#>;
+<#
+        }
+
+		region.End();
+#>
+
+<#
+		region.Begin("Public Properties", 1);
+
+		foreach (EntitySet entitySet in container.BaseEntitySets.OfType<EntitySet>())
+		{
+#>
+
+	<#=Accessibility.ForReadOnlyProperty(entitySet)#> virtual IRepository<<#=code.Escape(entitySet.ElementType)#>> <#=code.Escape(entitySet)#>
+    {
+        get { return <#= FixRepositoryName(code.Escape(entitySet.ElementType))#>.Value; }
+    }
+<#
+        }
+
+		region.End();		
+#>
+
+	#region Constructors
+
+    public EFUnitOfWork()
+        : this(new <#=code.Escape(container)#>())
+    {
+
+    }
+
+    public EFUnitOfWork(<#=code.Escape(container)#> context)
+    {
+        _context = context;
+
+<#
+		region.Begin("Instantiation of Repositories", 2);
+#>
+
+<#
+	foreach (EntitySet entitySet in container.BaseEntitySets.OfType<EntitySet>())
+	{
+#>
+	    <#= FixRepositoryName(code.Escape(entitySet.ElementType))#> = GetLazyRepository<<#=code.Escape(entitySet.ElementType)#>>(_context);
+<#
+    }
+
+		region.End();
+#>
+    }
+
+	#endregion
+
+    #region Helper Methods
+
+    private static Lazy<IRepository<TEntity>> GetLazyRepository<TEntity>(<#=code.Escape(container)#> context) where TEntity : class, IEntity
+    {
+        return new Lazy<IRepository<TEntity>>(() => new IRepository<TEntity>(context));
+    }
+
+    #endregion
+
+    #region IUnitOfWork Methods
+
+    public virtual void Save()
+    {
+        _context.SaveChanges();
+    }
+
+    #endregion
+
+    #region IDisposable Methods
+
+    private bool disposed = false;
+
+    protected virtual void Dispose(bool disposing)
+    {
+        if (!this.disposed)
+        {
+            if (disposing)
+            {
+                _context.Dispose();
+            }
+        }
+        this.disposed = true;
+    }
+
+    public void Dispose()
+    {
+        Dispose(true);
+        // GC.SuppressFinalize(this);
+    }
+
+    #endregion
+}
+<#  ClearIndent(); #>
+}
+
+<#+
+
+    private string FixRepositoryName(string name)
+    {
+        return String.Format("_{0}{1}Repository", Char.ToLower(name[0]), name.Substring(1));
+    }
+
+#>

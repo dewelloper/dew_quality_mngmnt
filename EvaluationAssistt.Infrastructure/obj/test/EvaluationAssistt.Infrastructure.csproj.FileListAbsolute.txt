@@ -1,0 +1,16 @@
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\EvaluationAssistt.Infrastructure.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\DevExpress.Web.ASPxEditors.v12.1.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\DevExpress.Web.v12.1.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\Microsoft.Practices.Unity.DLL
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\DevExpress.Web.ASPxEditors.v12.1.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\DevExpress.Web.v12.1.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\de\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\es\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\ja\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\test\ru\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\obj\test\EvaluationAssistt.Infrastructure.dll

@@ -1,0 +1,91 @@
+.jquery-msgbox
+{
+    background: url(/Contents/Images/Mbox/background.png) repeat-x left bottom;
+    padding-bottom: 55px;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.jquery-msgbox-wrapper
+{
+    padding: 20px 20px 20px 100px;
+}
+
+.jquery-msgbox-buttons
+{
+    padding: 15px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.jquery-msgbox-buttons button, .jquery-msgbox-buttons input
+{
+    /*     margin-left: 10px;     min-width: 85px;     padding: 0 14px 2px;     height: 24px;     cursor: pointer;     */
+    display: inline-block;
+    background: #fcfcfc; /* Old browsers */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZmNmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #fcfcfc 0%, #f2f2f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fcfcfc 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fcfcfc 0%,#f2f2f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fcfcfc 0%,#f2f2f2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fcfcfc 0%,#f2f2f2 100%); /* W3C */
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    height: 30px;
+    line-height: 26px;
+    box-shadow: 0 1px 0 #ffffff, 0 1px 0 #ffffff inset;
+    font-family: Arial;
+    color: #8f8f8f;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    box-shadow: 0 2px 3px #EAEAEA;
+    cursor: pointer;
+}
+
+.jquery-msgbox-inputs
+{
+    margin-top: 4px;
+}
+
+.jquery-msgbox-inputs input
+{
+    display: block;
+    padding: 3px 2px;
+    border: 1px solid #dddddd;
+    margin: 3px 0 6px 0;
+    width: 95%;
+}
+
+.jquery-msgbox-label
+{
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.jquery-msgbox-alert
+{
+    background: url(/Contents/Images/Mbox/alert.png) no-repeat 20px 20px;
+}
+
+.jquery-msgbox-info
+{
+    background: url(/Contents/Images/Mbox/info.png) no-repeat 20px 20px;
+}
+
+.jquery-msgbox-error
+{
+    background: url(/Contents/Images/Mbox/error.png) no-repeat 20px 20px;
+}
+
+.jquery-msgbox-prompt
+{
+    background: url(/Contents/Images/Mbox/question.png) no-repeat 20px 20px;
+}
+
+.jquery-msgbox-confirm
+{
+    background: url(/Contents/Images/Mbox/confirm.png) no-repeat 20px 20px;
+}

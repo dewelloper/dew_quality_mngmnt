@@ -1,0 +1,16 @@
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\bin\Release\EvaluationAssistt.Domain.dll.config
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\bin\Release\EvaluationAssistt.Domain.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\bin\Release\EvaluationAssistt.Domain.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\bin\Release\EntityFramework.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\bin\Release\EntityFramework.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\obj\Release\EvaluationAssistt.Domain.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Domain\obj\Release\EvaluationAssistt.Domain.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\bin\Release\EvaluationAssistt.Domain.dll.config
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\bin\Release\EvaluationAssistt.Domain.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\bin\Release\EvaluationAssistt.Domain.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\bin\Release\EntityFramework.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\obj\Release\EvaluationAssistt.Domain.csprojResolveAssemblyReference.cache
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\obj\Release\EvaluationAssistt.Domain.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Domain\obj\Release\EvaluationAssistt.Domain.pdb

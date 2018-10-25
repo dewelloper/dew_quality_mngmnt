@@ -1,0 +1,2 @@
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Web\obj\test\EvaluationAssistt.Web.csprojResolveAssemblyReference.cache
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Web\obj\test\EvaluationAssistt.Web.dll.licenses

@@ -1,0 +1,11 @@
+﻿.simple_table {
+    width: 300px;
+}
+
+    .simple_table .lbl {
+        width: 100px !important;
+    }
+
+    .dxeEditAreaSys {
+    max-height:26px !important;
+}

@@ -1,0 +1,144 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<%@ Register Assembly="DevExpress.Web.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dx" %>
+
+ <asp:Button Font-Names="Arial" Font-Size="11px" runat="server" width="100px" Height="28px" />
+
+ <asp:TextBox runat="server" CssClass="simple_field" width="170px" />
+
+ <dx:ASPxSpinEdit runat="server" Height="28px" Font-Names="Arial" CssClass="simple_field">
+ </dx:ASPxSpinEdit>
+
+ <dx:ASPxDateEdit runat="server" AllowNull="false" Height="28px" Font-Names="Arial" Border-BorderColor="#cccccc" CssClass="simple_form">
+    <Buttons>
+        <dx:DropDownButton Visible="false"></dx:DropDownButton>
+    </Buttons>
+</dx:ASPxDateEdit>
+
+ <dx:ASPxTimeEdit runat="server" Height="28px" Font-Names="Arial" CssClass="simple_form" Border-BorderColor="#cccccc">
+    <Paddings PaddingLeft="8px" />
+    <ButtonStyle Width="20px">
+    </ButtonStyle>
+ </dx:ASPxTimeEdit>
+
+<dx:ASPxListBox runat="server" CssClass="simple_form" Border-BorderColor="#cccccc"></dx:ASPxListBox>
+
+ <asp:ImageButton CssClass="imgButton" runat="server" />
+ 
+ <asp:RegularExpressionValidator runat="server" ErrorMessage="*" Display="Dynamic" Font-Names="Arial" CssClass="validation"
+    Font-Bold="True" Font-Size="9px" ForeColor="Red">
+</asp:RegularExpressionValidator>
+
+<asp:RequiredFieldValidator runat="server"  Display="Static" ErrorMessage="*" Font-Names="Arial" CssClass="validation" ForeColor="Red" Font-Size="9px"
+ToolTip="Bu alan boş geçilemez">
+</asp:RequiredFieldValidator>
+
+<asp:CompareValidator runat="server" ErrorMessage="*" Display="Dynamic" Font-Bold="True" Font-Names="Arial" CssClass="validation"
+    Font-Size="9px" ForeColor="Red"></asp:CompareValidator>
+
+<asp:CustomValidator runat="server" ErrorMessage="*" Display="Dynamic" Font-Bold="True" ForeColor="Red" Font-Names="Arial" Font-Size="9px" CssClass="validation">
+</asp:CustomValidator>
+
+ <dx:ASPxComboBox runat="server" CssClass="simple_form" Border-BorderColor="#cccccc"
+    ItemStyle-CssClass="simple_field" ItemStyle-SelectedStyle-CssClass="simple_field"
+    Paddings-PaddingLeft="8px" ItemStyle-HoverStyle-CssClass="simple_field_hover">
+    <DropDownButton Width="20px">
+    </DropDownButton>
+</dx:ASPxComboBox>
+
+
+
+<dx:ASPxGridView runat="server" Width="100%" SettingsBehavior-AllowSelectSingleRowOnly="true" Styles-Cell-Wrap="False" Styles-Cell-HorizontalAlign="Center">
+    <SettingsLoadingPanel Text="Y&#252;kleniyor…"></SettingsLoadingPanel>
+    <Styles Header-Paddings-Padding="0px" Header-HorizontalAlign="Center" Header-CssClass="tables"
+    Header-Font-Size="11px" Header-Font-Names="Arial" Header-ForeColor="#9d9d9d"
+    Header-BackgroundImage-ImageUrl="url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+')"
+    Header-BackgroundImage-Repeat="Repeat" Header-Border-BorderColor="#dadada" Row-CssClass="tables"
+    FilterRow-BackgroundImage-ImageUrl="url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+')"
+    FilterRow-BackgroundImage-Repeat="Repeat" FilterBuilderButtonArea-BackColor="Red">
+    <Header HorizontalAlign="Center" Font-Size="12px">
+    <Paddings Padding="0px"></Paddings>
+    <BackgroundImage ImageUrl="url(&#39;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+&#39;)">
+    </BackgroundImage>
+    <Border BorderColor="#DADADA"></Border>
+    </Header>
+    <Row BackColor="#FDFDFD">
+    </Row>
+    <RowHotTrack BackColor="#BFD6FB">
+    </RowHotTrack>
+    <AlternatingRow BackColor="#F9F9F9">
+    </AlternatingRow>
+    <SelectedRow BackColor="#BFD6FB">
+    </SelectedRow>
+    <FilterRow>
+    <BackgroundImage ImageUrl="url(&#39;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+&#39;)">
+    </BackgroundImage>
+    </FilterRow>
+    <FilterBuilderButtonArea BackColor="Red">
+    </FilterBuilderButtonArea>
+    </Styles>
+    <SettingsBehavior AllowSort="True" AllowSelectByRowClick="True" EnableRowHotTrack="True" />
+    <SettingsPager FirstPageButton-Visible="true" LastPageButton-Visible="true" AlwaysShowPager="true"
+    Mode="ShowPager" PageSize="100" Summary-Text="Sayfa {0} / {1} ({2} kayıt)">
+    <FirstPageButton Visible="True">
+    </FirstPageButton>
+    <LastPageButton Visible="True">
+    </LastPageButton>
+    <Summary Text="Sayfa {0} / {1} ({2} kayıt)"></Summary>
+    </SettingsPager>
+    <Settings ShowFilterRow="True" ShowVerticalScrollBar="true" VerticalScrollableHeight="300"
+    VerticalScrollBarStyle="Standard" />
+    <SettingsText EmptyDataRow="Kayıt bulunmamaktadır" />
+</dx:ASPxGridView>
+
+<dx:ASPxGridView runat="server" Width="100%" SkinID="SimpleGridView" SettingsBehavior-AllowSelectSingleRowOnly="true" Styles-Cell-Wrap="False" Styles-Cell-HorizontalAlign="Center">
+    <SettingsLoadingPanel Text="Y&#252;kleniyor…"></SettingsLoadingPanel>
+    <Styles Header-Paddings-Padding="0px" Header-HorizontalAlign="Center" Header-CssClass="tables"
+    Header-Font-Size="12px" Header-Font-Names="Arial" Header-ForeColor="#9d9d9d"
+    Header-BackgroundImage-ImageUrl="url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+')"
+    Header-BackgroundImage-Repeat="Repeat" Header-Border-BorderColor="#dadada" Row-CssClass="tables"
+    FilterRow-BackgroundImage-ImageUrl="url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+')"
+    FilterRow-BackgroundImage-Repeat="Repeat" FilterBuilderButtonArea-BackColor="Red">
+    <Header HorizontalAlign="Center" Font-Size="12px">
+    <Paddings Padding="0px"></Paddings>
+    <BackgroundImage ImageUrl="url(&#39;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+&#39;)">
+    </BackgroundImage>
+    <Border BorderColor="#DADADA"></Border>
+    </Header>
+    <Row BackColor="#FDFDFD">
+    </Row>
+    <RowHotTrack BackColor="#BFD6FB">
+    </RowHotTrack>
+    <AlternatingRow BackColor="#F9F9F9">
+    </AlternatingRow>
+    <SelectedRow BackColor="#BFD6FB">
+    </SelectedRow>
+    <FilterRow>
+    <BackgroundImage ImageUrl="url(&#39;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+&#39;)">
+    </BackgroundImage>
+    </FilterRow>
+    <FilterBuilderButtonArea BackColor="Red">
+    </FilterBuilderButtonArea>
+    </Styles>
+    <SettingsBehavior AllowSort="False" AllowSelectByRowClick="False" EnableRowHotTrack="True" />
+    <Settings ShowFilterRow="false" ShowVerticalScrollBar="true"
+    VerticalScrollBarStyle="Standard" />
+    <SettingsText EmptyDataRow="Kayıt bulunmamaktadır" />
+    <SettingsPager Visible="False" Mode="ShowAllRecords">
+    </SettingsPager>
+</dx:ASPxGridView>

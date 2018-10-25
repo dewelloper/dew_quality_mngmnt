@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E5945B50-6375-4932-A3B1-8A4718BF7E79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EvaluationAssistt.Service</RootNamespace>
+    <AssemblyName>EvaluationAssistt.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'test|AnyCPU'">
+    <OutputPath>bin\test\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\nunity2.04\nunity2.1\Microsoft.Practices.Unity.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\nunity2.04\nunity2.1\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AgentsService.cs" />
+    <Compile Include="Services\AnswersCategoriesSettingsService.cs" />
+    <Compile Include="Services\AnswersQuestionsSettingsService.cs" />
+    <Compile Include="Services\AnswersSectionsSettingService.cs" />
+    <Compile Include="Services\AnswersService.cs" />
+    <Compile Include="Services\AssisttReportingService.cs" />
+    <Compile Include="Services\CallsEvaluatedService.cs" />
+    <Compile Include="Services\CallsService.cs" />
+    <Compile Include="Services\CategoriesQuestionsService.cs" />
+    <Compile Include="Services\CategoriesService.cs" />
+    <Compile Include="Services\EvaluationReportingService.cs" />
+    <Compile Include="Services\FormsCallsService.cs" />
+    <Compile Include="Services\FormsSectionsService.cs" />
+    <Compile Include="Services\FormsService.cs" />
+    <Compile Include="Services\GroupsService.cs" />
+    <Compile Include="Services\LocationsService.cs" />
+    <Compile Include="Services\MessagesService.cs" />
+    <Compile Include="Services\PagesService.cs" />
+    <Compile Include="Services\QuestionsService.cs" />
+    <Compile Include="Services\ScoreTypesService.cs" />
+    <Compile Include="Services\SectionsCategoriesService.cs" />
+    <Compile Include="Services\SectionsService.cs" />
+    <Compile Include="Services\TeamsService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EvaluationAssistt.Data\EvaluationAssistt.Data.csproj">
+      <Project>{c57f3a5b-0eae-4888-a321-b72c940928cf}</Project>
+      <Name>EvaluationAssistt.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EvaluationAssistt.Domain\EvaluationAssistt.Domain.csproj">
+      <Project>{1bc4f1f1-e0c0-4734-ab5f-d68cb2d2371a}</Project>
+      <Name>EvaluationAssistt.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EvaluationAssistt.Infrastructure\EvaluationAssistt.Infrastructure.csproj">
+      <Project>{3409171a-2110-4565-97fb-4a67a895d95a}</Project>
+      <Name>EvaluationAssistt.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

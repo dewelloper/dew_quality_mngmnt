@@ -1,0 +1,450 @@
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Codes\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt\EvaluationAssistt\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Projects\Empatel\SVN\Sources\EVALUATION ASSISTT\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+C:\Assistt\Projects\Empatel\SVN\Sources\TURKTELEKOM\Survey\Evaluation Forms\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Business\Projects\Empatel\Projects\EvaluationAssistt\Source Code\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+C:\Users\Administrator\Desktop\IBB - Copy\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\Microsoft.Practices.Unity.DLL
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.ASPxEditors.v12.1.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.1.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.ASPxEditors.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.1.resources.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.xml
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.xml
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.xml
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.2.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.2.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.2.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.2.resources.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\Assist\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.xml
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.xml
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.xml
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.2.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.2.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.2.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.2.resources.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\EvaluationAssist_IBB\EvaluationForms\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.xml
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.xml
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.xml
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.2.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.2.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.2.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.2.resources.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\SVN\Sources\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.xml
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.xml
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.xml
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.2.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.2.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.2.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.2.resources.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\KALITE_DEGERLENDIRME_PAKET\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.xml
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.xml
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.xml
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.2.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.2.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.2.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.2.resources.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v12.2.Core.xml
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v12.2.Core.xml
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v12.2.xml
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v12.2.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v12.2.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v12.2.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v12.2.resources.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\EMP_SVN\Sources\IBB\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+D:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+E:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+E:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+E:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.csprojResolveAssemblyReference.cache
+E:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+E:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v14.2.Core.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v14.2.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v14.2.Core.xml
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v14.2.xml
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v14.2.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v14.2.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v14.2.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v14.2.resources.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+D:\hamit\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\EvaluationAssistt.Infrastructure.pdb
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v14.2.Core.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v14.2.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Office.v14.2.Core.xml
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\DevExpress.Web.v14.2.xml
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\de\DevExpress.Web.v14.2.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\es\DevExpress.Web.v14.2.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ja\DevExpress.Web.v14.2.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\bin\Debug\ru\DevExpress.Web.v14.2.resources.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.dll
+C:\IBB_KD\EvaluationAssistt.Infrastructure\obj\Debug\EvaluationAssistt.Infrastructure.pdb

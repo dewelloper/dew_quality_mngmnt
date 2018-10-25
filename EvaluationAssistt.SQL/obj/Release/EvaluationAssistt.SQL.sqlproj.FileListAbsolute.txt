@@ -1,0 +1,9 @@
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\bin\Release\EvaluationAssistt.SQL.dacpac
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\bin\Release\EvaluationAssistt.SQL.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\bin\Release\EvaluationAssistt.SQL.pdb
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Release\Model.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Release\refactor.xml
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Release\postdeploy.sql
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Release\predeploy.sql
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Release\EvaluationAssistt.SQL.dll
+C:\Users\tayfun.esmer\Desktop\EvaluationForms\EvaluationAssistt.SQL\obj\Release\EvaluationAssistt.SQL.pdb

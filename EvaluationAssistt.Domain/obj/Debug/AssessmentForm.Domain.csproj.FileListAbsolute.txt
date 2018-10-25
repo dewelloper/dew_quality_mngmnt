@@ -1,0 +1,32 @@
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll.config
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll.config
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\Source Code\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll.config
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\Degerlendirme Formu\Source Codes\Degerlendirme Formu\Source Codes\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll.config
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\bin\Debug\AssessmentForm.Domain.pdb
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\bin\Debug\EntityFramework.xml
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.csprojResolveAssemblyReference.cache
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.dll
+D:\Business\Empatel\Projects\AssessmentForm\AssessmentForm.Domain\obj\Debug\AssessmentForm.Domain.pdb

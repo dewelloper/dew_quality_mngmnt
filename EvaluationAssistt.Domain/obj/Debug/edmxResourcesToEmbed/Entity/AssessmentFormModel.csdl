@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AssessmentFormModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AssessmentFormEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Agents" EntityType="AssessmentFormModel.Agents" />
+    <EntitySet Name="Answers" EntityType="AssessmentFormModel.Answers" />
+    <EntitySet Name="AnswersCategoriesSettings" EntityType="AssessmentFormModel.AnswersCategoriesSettings" />
+    <EntitySet Name="AnswersSectionsSettings" EntityType="AssessmentFormModel.AnswersSectionsSettings" />
+    <EntitySet Name="CallAssessments" EntityType="AssessmentFormModel.CallAssessments" />
+    <EntitySet Name="Calls" EntityType="AssessmentFormModel.Calls" />
+    <EntitySet Name="Categories" EntityType="AssessmentFormModel.Categories" />
+    <EntitySet Name="CategoriesQuestions" EntityType="AssessmentFormModel.CategoriesQuestions" />
+    <EntitySet Name="Forms" EntityType="AssessmentFormModel.Forms" />
+    <EntitySet Name="FormsCalls" EntityType="AssessmentFormModel.FormsCalls" />
+    <EntitySet Name="FormsSections" EntityType="AssessmentFormModel.FormsSections" />
+    <EntitySet Name="Groups" EntityType="AssessmentFormModel.Groups" />
+    <EntitySet Name="Locations" EntityType="AssessmentFormModel.Locations" />
+    <EntitySet Name="Questions" EntityType="AssessmentFormModel.Questions" />
+    <EntitySet Name="ScoreTypes" EntityType="AssessmentFormModel.ScoreTypes" />
+    <EntitySet Name="Sections" EntityType="AssessmentFormModel.Sections" />
+    <EntitySet Name="SectionsCategories" EntityType="AssessmentFormModel.SectionsCategories" />
+    <EntitySet Name="Teams" EntityType="AssessmentFormModel.Teams" />
+    <AssociationSet Name="FK_Agents_Teams" Association="AssessmentFormModel.FK_Agents_Teams">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Agents" EntitySet="Agents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Calls_Agents" Association="AssessmentFormModel.FK_Calls_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="Calls" EntitySet="Calls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsCalls_Agents" Association="AssessmentFormModel.FK_FormsCalls_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="FormsCalls" EntitySet="FormsCalls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Groups_Agents" Association="AssessmentFormModel.FK_Groups_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="Groups" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teams_Agents" Association="AssessmentFormModel.FK_Teams_Agents">
+      <End Role="Agents" EntitySet="Agents" />
+      <End Role="Teams" EntitySet="Teams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Answers_Questions" Association="AssessmentFormModel.FK_Answers_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersCategoriesSettings_Answers" Association="AssessmentFormModel.FK_AnswersCategoriesSettings_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="AnswersCategoriesSettings" EntitySet="AnswersCategoriesSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersSectionsSettings_Answers" Association="AssessmentFormModel.FK_AnswersSectionsSettings_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="AnswersSectionsSettings" EntitySet="AnswersSectionsSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CallAssessments_Answers" Association="AssessmentFormModel.FK_CallAssessments_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="CallAssessments" EntitySet="CallAssessments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersCategoriesSettings_Categories" Association="AssessmentFormModel.FK_AnswersCategoriesSettings_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="AnswersCategoriesSettings" EntitySet="AnswersCategoriesSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AnswersSectionsSettings_Sections" Association="AssessmentFormModel.FK_AnswersSectionsSettings_Sections">
+      <End Role="Sections" EntitySet="Sections" />
+      <End Role="AnswersSectionsSettings" EntitySet="AnswersSectionsSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CallAssessments_Questions" Association="AssessmentFormModel.FK_CallAssessments_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="CallAssessments" EntitySet="CallAssessments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsCalls_Calls" Association="AssessmentFormModel.FK_FormsCalls_Calls">
+      <End Role="Calls" EntitySet="Calls" />
+      <End Role="FormsCalls" EntitySet="FormsCalls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Categories_ScoreTypes" Association="AssessmentFormModel.FK_Categories_ScoreTypes">
+      <End Role="ScoreTypes" EntitySet="ScoreTypes" />
+      <End Role="Categories" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CategoriesQuestions_Categories" Association="AssessmentFormModel.FK_CategoriesQuestions_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="CategoriesQuestions" EntitySet="CategoriesQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SectionsCategories_Categories" Association="AssessmentFormModel.FK_SectionsCategories_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="SectionsCategories" EntitySet="SectionsCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CategoriesQuestions_Questions" Association="AssessmentFormModel.FK_CategoriesQuestions_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="CategoriesQuestions" EntitySet="CategoriesQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsCalls_Forms" Association="AssessmentFormModel.FK_FormsCalls_Forms">
+      <End Role="Forms" EntitySet="Forms" />
+      <End Role="FormsCalls" EntitySet="FormsCalls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsSections_Forms" Association="AssessmentFormModel.FK_FormsSections_Forms">
+      <End Role="Forms" EntitySet="Forms" />
+      <End Role="FormsSections" EntitySet="FormsSections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FormsSections_Sections" Association="AssessmentFormModel.FK_FormsSections_Sections">
+      <End Role="Sections" EntitySet="Sections" />
+      <End Role="FormsSections" EntitySet="FormsSections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Groups_Locations" Association="AssessmentFormModel.FK_Groups_Locations">
+      <End Role="Locations" EntitySet="Locations" />
+      <End Role="Groups" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teams_Groups" Association="AssessmentFormModel.FK_Teams_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Teams" EntitySet="Teams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sections_ScoreTypes" Association="AssessmentFormModel.FK_Sections_ScoreTypes">
+      <End Role="ScoreTypes" EntitySet="ScoreTypes" />
+      <End Role="Sections" EntitySet="Sections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SectionsCategories_Sections" Association="AssessmentFormModel.FK_SectionsCategories_Sections">
+      <End Role="Sections" EntitySet="Sections" />
+      <End Role="SectionsCategories" EntitySet="SectionsCategories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Agents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Username" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Password" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoginId" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="TeamId" />
+    <Property Type="String" Name="RegisterNumber" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="ViewCount" Nullable="false" />
+    <Property Type="DateTime" Name="LastViewDate" Precision="3" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Teams" Relationship="AssessmentFormModel.FK_Agents_Teams" FromRole="Agents" ToRole="Teams" />
+    <NavigationProperty Name="Calls" Relationship="AssessmentFormModel.FK_Calls_Agents" FromRole="Agents" ToRole="Calls" />
+    <NavigationProperty Name="FormsCalls" Relationship="AssessmentFormModel.FK_FormsCalls_Agents" FromRole="Agents" ToRole="FormsCalls" />
+    <NavigationProperty Name="Groups" Relationship="AssessmentFormModel.FK_Groups_Agents" FromRole="Agents" ToRole="Groups" />
+    <NavigationProperty Name="Teams1" Relationship="AssessmentFormModel.FK_Teams_Agents" FromRole="Agents" ToRole="Teams" />
+  </EntityType>
+  <EntityType Name="Answers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="AnswerText" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="QuestionId" Nullable="false" />
+    <Property Type="Int16" Name="Score" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Questions" Relationship="AssessmentFormModel.FK_Answers_Questions" FromRole="Answers" ToRole="Questions" />
+    <NavigationProperty Name="AnswersCategoriesSettings" Relationship="AssessmentFormModel.FK_AnswersCategoriesSettings_Answers" FromRole="Answers" ToRole="AnswersCategoriesSettings" />
+    <NavigationProperty Name="AnswersSectionsSettings" Relationship="AssessmentFormModel.FK_AnswersSectionsSettings_Answers" FromRole="Answers" ToRole="AnswersSectionsSettings" />
+    <NavigationProperty Name="CallAssessments" Relationship="AssessmentFormModel.FK_CallAssessments_Answers" FromRole="Answers" ToRole="CallAssessments" />
+  </EntityType>
+  <EntityType Name="AnswersCategoriesSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="AnswerId" Nullable="false" />
+    <Property Type="Int32" Name="CategoryId" Nullable="false" />
+    <Property Type="Boolean" Name="DoesZeroize" Nullable="false" />
+    <Property Type="Boolean" Name="DoesDisable" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="AssessmentFormModel.FK_AnswersCategoriesSettings_Answers" FromRole="AnswersCategoriesSettings" ToRole="Answers" />
+    <NavigationProperty Name="Categories" Relationship="AssessmentFormModel.FK_AnswersCategoriesSettings_Categories" FromRole="AnswersCategoriesSettings" ToRole="Categories" />
+  </EntityType>
+  <EntityType Name="AnswersSectionsSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="AnswerId" Nullable="false" />
+    <Property Type="Int32" Name="SectionId" Nullable="false" />
+    <Property Type="Boolean" Name="DoesZeroize" Nullable="false" />
+    <Property Type="Boolean" Name="DoesDisable" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="AssessmentFormModel.FK_AnswersSectionsSettings_Answers" FromRole="AnswersSectionsSettings" ToRole="Answers" />
+    <NavigationProperty Name="Sections" Relationship="AssessmentFormModel.FK_AnswersSectionsSettings_Sections" FromRole="AnswersSectionsSettings" ToRole="Sections" />
+  </EntityType>
+  <EntityType Name="CallAssessments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="FormCallId" Nullable="false" />
+    <Property Type="Int32" Name="QuestionId" Nullable="false" />
+    <Property Type="Int32" Name="AnswerId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="AssessmentFormModel.FK_CallAssessments_Answers" FromRole="CallAssessments" ToRole="Answers" />
+    <NavigationProperty Name="Questions" Relationship="AssessmentFormModel.FK_CallAssessments_Questions" FromRole="CallAssessments" ToRole="Questions" />
+  </EntityType>
+  <EntityType Name="Calls">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FileName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="AgentId" />
+    <Property Type="DateTime" Name="DateStarted" Precision="3" />
+    <Property Type="DateTime" Name="DateEnded" Precision="3" />
+    <Property Type="Int32" Name="Duration" />
+    <Property Type="String" Name="CallingDeviceId" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VdnExtension" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="VdnName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Agents" Relationship="AssessmentFormModel.FK_Calls_Agents" FromRole="Calls" ToRole="Agents" />
+    <NavigationProperty Name="FormsCalls" Relationship="AssessmentFormModel.FK_FormsCalls_Calls" FromRole="Calls" ToRole="FormsCalls" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsDisabled" Nullable="false" />
+    <Property Type="Int16" Name="MaximumScore" Nullable="false" />
+    <Property Type="Int16" Name="MinimumScore" Nullable="false" />
+    <Property Type="Int32" Name="ScoreTypeId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="AnswersCategoriesSettings" Relationship="AssessmentFormModel.FK_AnswersCategoriesSettings_Categories" FromRole="Categories" ToRole="AnswersCategoriesSettings" />
+    <NavigationProperty Name="ScoreTypes" Relationship="AssessmentFormModel.FK_Categories_ScoreTypes" FromRole="Categories" ToRole="ScoreTypes" />
+    <NavigationProperty Name="CategoriesQuestions" Relationship="AssessmentFormModel.FK_CategoriesQuestions_Categories" FromRole="Categories" ToRole="CategoriesQuestions" />
+    <NavigationProperty Name="SectionsCategories" Relationship="AssessmentFormModel.FK_SectionsCategories_Categories" FromRole="Categories" ToRole="SectionsCategories" />
+  </EntityType>
+  <EntityType Name="CategoriesQuestions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="CategoryId" Nullable="false" />
+    <Property Type="Int32" Name="QuestionId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="AssessmentFormModel.FK_CategoriesQuestions_Categories" FromRole="CategoriesQuestions" ToRole="Categories" />
+    <NavigationProperty Name="Questions" Relationship="AssessmentFormModel.FK_CategoriesQuestions_Questions" FromRole="CategoriesQuestions" ToRole="Questions" />
+  </EntityType>
+  <EntityType Name="Forms">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="RequiresComment" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="FormsCalls" Relationship="AssessmentFormModel.FK_FormsCalls_Forms" FromRole="Forms" ToRole="FormsCalls" />
+    <NavigationProperty Name="FormsSections" Relationship="AssessmentFormModel.FK_FormsSections_Forms" FromRole="Forms" ToRole="FormsSections" />
+  </EntityType>
+  <EntityType Name="FormsCalls">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="FormId" Nullable="false" />
+    <Property Type="Int32" Name="CallId" Nullable="false" />
+    <Property Type="Int32" Name="AgentId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Agents" Relationship="AssessmentFormModel.FK_FormsCalls_Agents" FromRole="FormsCalls" ToRole="Agents" />
+    <NavigationProperty Name="Calls" Relationship="AssessmentFormModel.FK_FormsCalls_Calls" FromRole="FormsCalls" ToRole="Calls" />
+    <NavigationProperty Name="Forms" Relationship="AssessmentFormModel.FK_FormsCalls_Forms" FromRole="FormsCalls" ToRole="Forms" />
+  </EntityType>
+  <EntityType Name="FormsSections">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="FormId" Nullable="false" />
+    <Property Type="Int32" Name="SectionId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Forms" Relationship="AssessmentFormModel.FK_FormsSections_Forms" FromRole="FormsSections" ToRole="Forms" />
+    <NavigationProperty Name="Sections" Relationship="AssessmentFormModel.FK_FormsSections_Sections" FromRole="FormsSections" ToRole="Sections" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="LocationId" Nullable="false" />
+    <Property Type="Int32" Name="AgentId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Agents" Relationship="AssessmentFormModel.FK_Groups_Agents" FromRole="Groups" ToRole="Agents" />
+    <NavigationProperty Name="Locations" Relationship="AssessmentFormModel.FK_Groups_Locations" FromRole="Groups" ToRole="Locations" />
+    <NavigationProperty Name="Teams" Relationship="AssessmentFormModel.FK_Teams_Groups" FromRole="Groups" ToRole="Teams" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Groups" Relationship="AssessmentFormModel.FK_Groups_Locations" FromRole="Locations" ToRole="Groups" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="QuestionText" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="HasComment" Nullable="false" />
+    <Property Type="Boolean" Name="RequiresComment" Nullable="false" />
+    <Property Type="Boolean" Name="HasVisibleScore" Nullable="false" />
+    <Property Type="Boolean" Name="HasMultipleAnswers" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="AssessmentFormModel.FK_Answers_Questions" FromRole="Questions" ToRole="Answers" />
+    <NavigationProperty Name="CallAssessments" Relationship="AssessmentFormModel.FK_CallAssessments_Questions" FromRole="Questions" ToRole="CallAssessments" />
+    <NavigationProperty Name="CategoriesQuestions" Relationship="AssessmentFormModel.FK_CategoriesQuestions_Questions" FromRole="Questions" ToRole="CategoriesQuestions" />
+  </EntityType>
+  <EntityType Name="ScoreTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="AssessmentFormModel.FK_Categories_ScoreTypes" FromRole="ScoreTypes" ToRole="Categories" />
+    <NavigationProperty Name="Sections" Relationship="AssessmentFormModel.FK_Sections_ScoreTypes" FromRole="ScoreTypes" ToRole="Sections" />
+  </EntityType>
+  <EntityType Name="Sections">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsDisabled" Nullable="false" />
+    <Property Type="Int16" Name="MaximumScore" Nullable="false" />
+    <Property Type="Int16" Name="MinimumScore" Nullable="false" />
+    <Property Type="Int32" Name="ScoreTypeId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="AnswersSectionsSettings" Relationship="AssessmentFormModel.FK_AnswersSectionsSettings_Sections" FromRole="Sections" ToRole="AnswersSectionsSettings" />
+    <NavigationProperty Name="FormsSections" Relationship="AssessmentFormModel.FK_FormsSections_Sections" FromRole="Sections" ToRole="FormsSections" />
+    <NavigationProperty Name="ScoreTypes" Relationship="AssessmentFormModel.FK_Sections_ScoreTypes" FromRole="Sections" ToRole="ScoreTypes" />
+    <NavigationProperty Name="SectionsCategories" Relationship="AssessmentFormModel.FK_SectionsCategories_Sections" FromRole="Sections" ToRole="SectionsCategories" />
+  </EntityType>
+  <EntityType Name="SectionsCategories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SectionId" Nullable="false" />
+    <Property Type="Int32" Name="CategoryId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="AssessmentFormModel.FK_SectionsCategories_Categories" FromRole="SectionsCategories" ToRole="Categories" />
+    <NavigationProperty Name="Sections" Relationship="AssessmentFormModel.FK_SectionsCategories_Sections" FromRole="SectionsCategories" ToRole="Sections" />
+  </EntityType>
+  <EntityType Name="Teams">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="GroupId" Nullable="false" />
+    <Property Type="Int32" Name="AgentId" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+    <NavigationProperty Name="Agents" Relationship="AssessmentFormModel.FK_Agents_Teams" FromRole="Teams" ToRole="Agents" />
+    <NavigationProperty Name="Agents1" Relationship="AssessmentFormModel.FK_Teams_Agents" FromRole="Teams" ToRole="Agents" />
+    <NavigationProperty Name="Groups" Relationship="AssessmentFormModel.FK_Teams_Groups" FromRole="Teams" ToRole="Groups" />
+  </EntityType>
+  <Association Name="FK_Agents_Teams">
+    <End Type="AssessmentFormModel.Teams" Role="Teams" Multiplicity="0..1" />
+    <End Type="AssessmentFormModel.Agents" Role="Agents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agents">
+        <PropertyRef Name="TeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Calls_Agents">
+    <End Type="AssessmentFormModel.Agents" Role="Agents" Multiplicity="0..1" />
+    <End Type="AssessmentFormModel.Calls" Role="Calls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Calls">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsCalls_Agents">
+    <End Type="AssessmentFormModel.Agents" Role="Agents" Multiplicity="1" />
+    <End Type="AssessmentFormModel.FormsCalls" Role="FormsCalls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsCalls">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Groups_Agents">
+    <End Type="AssessmentFormModel.Agents" Role="Agents" Multiplicity="1" />
+    <End Type="AssessmentFormModel.Groups" Role="Groups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Groups">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teams_Agents">
+    <End Type="AssessmentFormModel.Agents" Role="Agents" Multiplicity="1" />
+    <End Type="AssessmentFormModel.Teams" Role="Teams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Teams">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Answers_Questions">
+    <End Type="AssessmentFormModel.Questions" Role="Questions" Multiplicity="1" />
+    <End Type="AssessmentFormModel.Answers" Role="Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersCategoriesSettings_Answers">
+    <End Type="AssessmentFormModel.Answers" Role="Answers" Multiplicity="1" />
+    <End Type="AssessmentFormModel.AnswersCategoriesSettings" Role="AnswersCategoriesSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersCategoriesSettings">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersSectionsSettings_Answers">
+    <End Type="AssessmentFormModel.Answers" Role="Answers" Multiplicity="1" />
+    <End Type="AssessmentFormModel.AnswersSectionsSettings" Role="AnswersSectionsSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersSectionsSettings">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CallAssessments_Answers">
+    <End Type="AssessmentFormModel.Answers" Role="Answers" Multiplicity="1" />
+    <End Type="AssessmentFormModel.CallAssessments" Role="CallAssessments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CallAssessments">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersCategoriesSettings_Categories">
+    <End Type="AssessmentFormModel.Categories" Role="Categories" Multiplicity="1" />
+    <End Type="AssessmentFormModel.AnswersCategoriesSettings" Role="AnswersCategoriesSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersCategoriesSettings">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AnswersSectionsSettings_Sections">
+    <End Type="AssessmentFormModel.Sections" Role="Sections" Multiplicity="1" />
+    <End Type="AssessmentFormModel.AnswersSectionsSettings" Role="AnswersSectionsSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sections">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnswersSectionsSettings">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CallAssessments_Questions">
+    <End Type="AssessmentFormModel.Questions" Role="Questions" Multiplicity="1" />
+    <End Type="AssessmentFormModel.CallAssessments" Role="CallAssessments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CallAssessments">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsCalls_Calls">
+    <End Type="AssessmentFormModel.Calls" Role="Calls" Multiplicity="1" />
+    <End Type="AssessmentFormModel.FormsCalls" Role="FormsCalls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Calls">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsCalls">
+        <PropertyRef Name="CallId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Categories_ScoreTypes">
+    <End Type="AssessmentFormModel.ScoreTypes" Role="ScoreTypes" Multiplicity="1" />
+    <End Type="AssessmentFormModel.Categories" Role="Categories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScoreTypes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Categories">
+        <PropertyRef Name="ScoreTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CategoriesQuestions_Categories">
+    <End Type="AssessmentFormModel.Categories" Role="Categories" Multiplicity="1" />
+    <End Type="AssessmentFormModel.CategoriesQuestions" Role="CategoriesQuestions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CategoriesQuestions">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SectionsCategories_Categories">
+    <End Type="AssessmentFormModel.Categories" Role="Categories" Multiplicity="1" />
+    <End Type="AssessmentFormModel.SectionsCategories" Role="SectionsCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SectionsCategories">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CategoriesQuestions_Questions">
+    <End Type="AssessmentFormModel.Questions" Role="Questions" Multiplicity="1" />
+    <End Type="AssessmentFormModel.CategoriesQuestions" Role="CategoriesQuestions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CategoriesQuestions">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsCalls_Forms">
+    <End Type="AssessmentFormModel.Forms" Role="Forms" Multiplicity="1" />
+    <End Type="AssessmentFormModel.FormsCalls" Role="FormsCalls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Forms">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsCalls">
+        <PropertyRef Name="FormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsSections_Forms">
+    <End Type="AssessmentFormModel.Forms" Role="Forms" Multiplicity="1" />
+    <End Type="AssessmentFormModel.FormsSections" Role="FormsSections" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Forms">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsSections">
+        <PropertyRef Name="FormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FormsSections_Sections">
+    <End Type="AssessmentFormModel.Sections" Role="Sections" Multiplicity="1" />
+    <End Type="AssessmentFormModel.FormsSections" Role="FormsSections" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sections">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FormsSections">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Groups_Locations">
+    <End Type="AssessmentFormModel.Locations" Role="Locations" Multiplicity="1" />
+    <End Type="AssessmentFormModel.Groups" Role="Groups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Groups">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teams_Groups">
+    <End Type="AssessmentFormModel.Groups" Role="Groups" Multiplicity="1" />
+    <End Type="AssessmentFormModel.Teams" Role="Teams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Teams">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sections_ScoreTypes">
+    <End Type="AssessmentFormModel.ScoreTypes" Role="ScoreTypes" Multiplicity="1" />
+    <End Type="AssessmentFormModel.Sections" Role="Sections" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScoreTypes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sections">
+        <PropertyRef Name="ScoreTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SectionsCategories_Sections">
+    <End Type="AssessmentFormModel.Sections" Role="Sections" Multiplicity="1" />
+    <End Type="AssessmentFormModel.SectionsCategories" Role="SectionsCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sections">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SectionsCategories">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
